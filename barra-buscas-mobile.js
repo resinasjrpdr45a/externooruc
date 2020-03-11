@@ -4,18 +4,19 @@ $(document).ready(function(){
 		//Barra de Categorias
 		if (window.matchMedia('(max-width: 1023px)').matches){  
   			
-  			//Botão Fechar Toggle
+  			$('.menu-mobile .fa-times').addClass("mobile-close");
+        //Botão Fechar Toggle
   			if ($(window).width() <= 1023){  
 				
 				$('.menu-mobile').append('<i class="fas fa-times"></i>');
-				$('.fa-times').css({"display":"none"});
+				$('.mobile-close').css({"display":"none"});
 				
 				$('.menu-mobile .icon-bars').click(function(){
 					$('.icon-bars').css({"display":"none"});
 					$('.fa-times').css({"display":"block"});
 				});
 
-				$('.menu-mobile .fa-times').click(function(){
+				$('.menu-mobile .mobile-close').click(function(){
 					$('.fa-times').css({"display":"none"});
 					$('.icon-bars').css({"display":"block"});
 				});
@@ -26,7 +27,10 @@ $(document).ready(function(){
 
 				});
 			
-			}
+			}else{
+
+        $('.mobile-close').css({"display":"none"});
+      }
 		
 
 
