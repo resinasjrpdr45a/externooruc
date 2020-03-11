@@ -643,7 +643,10 @@ $(document).ready(function(){
   			  		$('#header-search').css({"margin-top":"104px"});
     			}
 			});
-		}
+		} else{
+
+      alert("É Big");
+    }
 
 		
 		// Funçao Resize da Barra de Buscas e Categorias
