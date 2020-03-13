@@ -108,15 +108,15 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Referente a Barra Estatica
     			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"150px"});  
-            $('#header-search').css({"margin-top":"145px"});
+  					$('.wbc-mainnav').css({"margin-top":"132px"});  
+            $('#header-search').css({"margin-top":"128px"});
     			}
 
     			//Referente a Barra Fixa
     			else{
               
-              $('.wbc-mainnav').css({"margin-top":"145px"});  
-  			  		$('#header-search').css({"margin-top":"145px"});
+              $('.wbc-mainnav').css({"margin-top":"132px"});  
+  			  		$('#header-search').css({"margin-top":"128px"});
     			}
 			});
 		}
@@ -135,14 +135,14 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Referente a Barra Estatica
     			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"150px"});  
-    				$('#header-search').css({"margin-top":"145px"});
+  					$('.wbc-mainnav').css({"margin-top":"130px"});  
+    				$('#header-search').css({"margin-top":"126px"});
     			}
 
     			//Referente a Barra Fixa
     			else{
-            $('.wbc-mainnav').css({"margin-top":"148px"});  
-  			  	$('#header-search').css({"margin-top":"148px"});
+           $('.wbc-mainnav').css({"margin-top":"130px"});  
+           $('#header-search').css({"margin-top":"126px"})
     			}
 			});
 		}
@@ -155,14 +155,14 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Referente a Barra Estatica
     			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"150px"});  
-    				$('#header-search').css({"margin-top":"145px"});
+  					$('.wbc-mainnav').css({"margin-top":"130px"});  
+            $('#header-search').css({"margin-top":"126px"})
     			}
 
     			//Referente a Barra Fixa
     			else{  
-            $('.wbc-mainnav').css({"margin-top":"150px"});  
-  			  	$('#header-search').css({"margin-top":"145px"});
+            $('.wbc-mainnav').css({"margin-top":"130px"});  
+            $('#header-search').css({"margin-top":"126px"})
     			}
 			});
 		}
@@ -733,14 +733,14 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Referente a Barra Estatica
     			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"150px"});  
-            $('#header-search').css({"margin-top":"145px"});
+  					$('.wbc-mainnav').css({"margin-top":"132px"});  
+            $('#header-search').css({"margin-top":"128px"});
     			}
 
     			//Referente a Barra Fixa
     			else{ 
-            $('.wbc-mainnav').css({"margin-top":"145px"});  
-  			  	$('#header-search').css({"margin-top":"145px"});
+            $('.wbc-mainnav').css({"margin-top":"132px"});  
+            $('#header-search').css({"margin-top":"128px"});
     			}
 			});
 		}
@@ -759,14 +759,14 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Referente a Barra Estatica
     			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"150px"});  
-            $('#header-search').css({"margin-top":"145px"});
+  					$('.wbc-mainnav').css({"margin-top":"130px"});  
+            $('#header-search').css({"margin-top":"126px"})
     			}
 
     			//Referente a Barra Fixa
     			else{
-            $('.wbc-mainnav').css({"margin-top":"148px"});  
-  			  	$('#header-search').css({"margin-top":"148px"});
+            $('.wbc-mainnav').css({"margin-top":"130px"});  
+            $('#header-search').css({"margin-top":"126px"})
     			}
 			});
 		}
@@ -779,15 +779,14 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Referente a Barra Estatica
     			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"150px"});  
-            $('#header-search').css({"margin-top":"145px"});
+  					$('.wbc-mainnav').css({"margin-top":"130px"});  
+            $('#header-search').css({"margin-top":"126px"})
     			}
 
     			//Referente a Barra Fixa
     			else{
-              
-            $('.wbc-mainnav').css({"margin-top":"150px"});  
-            $('#header-search').css({"margin-top":"145px"});
+            $('.wbc-mainnav').css({"margin-top":"130px"});  
+            $('#header-search').css({"margin-top":"126px"})
     			}
 			});
 		}
