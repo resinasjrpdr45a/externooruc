@@ -40,12 +40,12 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Categorias referentes a Barra Estatica
     			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"200px"});	      		
+  					$('.wbc-mainnav').css({"margin-top":"195px"});	      		
     			}
 
     			//Categorias referentes a Barra Fixa
     			else{
-           			$('.wbc-mainnav').css({"margin-top":"168px"});	    
+           			$('.wbc-mainnav').css({"margin-top":"156px"});	    
     			}
 			}); 
 		}
@@ -661,12 +661,12 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Categorias referentes a Barra Estatica
     			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"200px"});	      		
+  					$('.wbc-mainnav').css({"margin-top":"195px"});	      		
     			}
 
     			//Categorias referentes a Barra Fixa
     			else{
-           			$('.wbc-mainnav').css({"margin-top":"168px"});	    
+           			$('.wbc-mainnav').css({"margin-top":"156px"});	    
     			}
 			}); 
 		}
