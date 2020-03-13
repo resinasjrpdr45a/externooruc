@@ -671,35 +671,6 @@ $(document).ready(function(){
 			}); 
 		}
 
-
-		//Botão Fechar Toggle
-  		if ($(window).width() <= 1023){  
-				
-			$('.menu-mobile').append('<i class="fas fa-times"></i>');
-        $('.fa-times').addClass('closemobile');
-			$('.closemobile').css({"display":"none"});
-				
-			$('.menu-mobile .icon-bars').click(function(){
-				$('.icon-bars').css({"display":"none"});
-				$('.closemobile').css({"display":"block"});
-			});
-
-			$('.menu-mobile .fa-times').click(function(){
-				$('.closemobile').css({"display":"none"});
-				$('.icon-bars').css({"display":"block"});
-			});
-
-			$('#main-content-overlay').click(function(){
-				$('.closemobile').css({"display":"none"});
-				$('.icon-bars').css({"display":"block"});
-
-			});
-			
-		}
-
-		
-
-
 		//Barra de Buscas
 		if (window.matchMedia('(max-width: 1023px)').matches){  
 			//Removedor de Classes
