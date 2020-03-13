@@ -4,32 +4,34 @@ $(document).ready(function(){
 		//Barra de Categorias
 		if (window.matchMedia('(max-width: 1023px)').matches){  
   			
-  			$('.menu-mobile .fa-times').addClass("mobile-close");
+  			
         //Botão Fechar Toggle
   			if ($(window).width() <= 1023){  
 				
 				$('.menu-mobile').append('<i class="fas fa-times"></i>');
-				$('.mobile-close').css({"display":"none"});
+				$('.fa-times').addClass('closemobile');
+        $('.closemobile').css({"display":"none"});
 				
 				$('.menu-mobile .icon-bars').click(function(){
 					$('.icon-bars').css({"display":"none"});
-					$('.fa-times').css({"display":"block"});
+					$('.closemobile').css({"display":"block"});
 				});
 
-				$('.menu-mobile .mobile-close').click(function(){
-					$('.fa-times').css({"display":"none"});
+				$('.menu-mobile .closemobile').click(function(){
+					$('.closemobile').css({"display":"none"});
 					$('.icon-bars').css({"display":"block"});
 				});
 
 				$('#main-content-overlay').click(function(){
-					$('.fa-times').css({"display":"none"});
+					$('.closemobile').css({"display":"none"});
 					$('.icon-bars').css({"display":"block"});
 
 				});
 			
 			}else{
 
-        $('.mobile-close').css({"display":"none"});
+        $('.closemobile').css({"display":"none"});
+        $('.fa-times').removeClass('closemobile');
       }
 		
 
@@ -674,20 +676,21 @@ $(document).ready(function(){
   		if ($(window).width() <= 1023){  
 				
 			$('.menu-mobile').append('<i class="fas fa-times"></i>');
-			$('.fa-times').css({"display":"none"});
+        $('.fa-times').addClass('closemobile');
+			$('.closemobile').css({"display":"none"});
 				
 			$('.menu-mobile .icon-bars').click(function(){
 				$('.icon-bars').css({"display":"none"});
-				$('.fa-times').css({"display":"block"});
+				$('.closemobile').css({"display":"block"});
 			});
 
 			$('.menu-mobile .fa-times').click(function(){
-				$('.fa-times').css({"display":"none"});
+				$('.closemobile').css({"display":"none"});
 				$('.icon-bars').css({"display":"block"});
 			});
 
 			$('#main-content-overlay').click(function(){
-				$('.fa-times').css({"display":"none"});
+				$('.closemobile').css({"display":"none"});
 				$('.icon-bars').css({"display":"block"});
 
 			});
