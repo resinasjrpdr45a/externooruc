@@ -40,12 +40,12 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Categorias referentes a Barra Estatica
     			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"195px"});	      		
+  					$('.wbc-mainnav').css({"margin-top":"200px"});	      		
     			}
 
     			//Categorias referentes a Barra Fixa
     			else{
-           			$('.wbc-mainnav').css({"margin-top":"156px"});	    
+           			$('.wbc-mainnav').css({"margin-top":"168px"});	    
     			}
 			}); 
 		}
@@ -60,14 +60,16 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Referente a Barra Estatica
     			if(topo<151){
-  					$('#header-search').css({"margin-top":"162px"});  
+  					$('.wbc-mainnav').css({"margin-top":"195px"});  
+            $('#header-search').css({"margin-top":"156px"});
     		
     			}
 
     			//Referente a Barra Fixa
     			else{
               
-              		$('#header-search').css({"margin-top":"170px"});  
+            $('.wbc-mainnav').css({"margin-top":"160px"});  
+            $('#header-search').css({"margin-top":"162px"});
     			}
 			});
 		}
@@ -223,7 +225,7 @@ $(document).ready(function(){
     			//Referente a Barra Fixa
     			else{
               
-              		$('.wbc-mainnav').css({"margin-top":"172px"});  
+              	$('.wbc-mainnav').css({"margin-top":"172px"});  
   			  		$('#header-search').css({"margin-top":"167px"});
     			}
 			});
@@ -661,15 +663,22 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Categorias referentes a Barra Estatica
     			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"195px"});	      		
+  					$('.wbc-mainnav').css({"margin-top":"195px"});  
+            $('#header-search').css({"margin-top":"156px"});	      		
     			}
 
     			//Categorias referentes a Barra Fixa
     			else{
-           			$('.wbc-mainnav').css({"margin-top":"156px"});	    
+           	$('.wbc-mainnav').css({"margin-top":"160px"});  
+            $('#header-search').css({"margin-top":"162px"});	    
     			}
 			}); 
 		}
+
+
+		
+		
+
 
 		//Barra de Buscas
 		if (window.matchMedia('(max-width: 1023px)').matches){  
