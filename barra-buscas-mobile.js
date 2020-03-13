@@ -206,46 +206,6 @@ $(document).ready(function(){
 			});
 		}
 
-		//Ajuste da Barra de Buscas na Resolução de 713px
-		if (window.matchMedia('(max-width: 713px)').matches){  
-
-			$('#wbc-mainnav').removeClass(" col-md-12 col-sm-12 hidden-sm hidden-xs");
-			$(window).scroll(function(){
-    			var topo = $(window).scrollTop();
-    			//Referente a Barra Estatica
-    			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"145px"});  
-            $('#header-search').css({"margin-top":"140px"});
-    			}
-
-    			//Referente a Barra Fixa
-    			else{
-            $('.wbc-mainnav').css({"margin-top":"145px"});  
-            $('#header-search').css({"margin-top":"140px"});
-    			}
-			});
-		}
-
-		//Ajuste da Barra de Buscas na Resolução de 707px
-		if (window.matchMedia('(max-width: 707px)').matches){  
-
-			$('#wbc-mainnav').removeClass(" col-md-12 col-sm-12 hidden-sm hidden-xs");
-			$(window).scroll(function(){
-    			var topo = $(window).scrollTop();
-    			//Referente a Barra Estatica
-    			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"145px"});  
-            $('#header-search').css({"margin-top":"140px"});
-    			}
-
-    			//Referente a Barra Fixa
-    			else{ 
-            $('.wbc-mainnav').css({"margin-top":"145px"});  
-            $('#header-search').css({"margin-top":"140px"});
-    			}
-			});
-		}
-
 		//Ajuste da Barra de Buscas na Resolução de 700px
 		if (window.matchMedia('(max-width: 700px)').matches){  
 
@@ -254,15 +214,14 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Referente a Barra Estatica
     			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"168px"});  
-    				$('#header-search').css({"margin-top":"163px"});
+  					$('.wbc-mainnav').css({"margin-top":"145px"});  
+            $('#header-search').css({"margin-top":"140px"});
     			}
 
     			//Referente a Barra Fixa
     			else{
-              
-              		$('.wbc-mainnav').css({"margin-top":"168px"});  
-  			  		$('#header-search').css({"margin-top":"163px"});
+            $('.wbc-mainnav').css({"margin-top":"145px"});  
+            $('#header-search').css({"margin-top":"140px"});
     			}
 			});
 		}
@@ -805,47 +764,6 @@ $(document).ready(function(){
 			});
 		}
 
-		
-		//Ajuste da Barra de Buscas na Resolução de 713px
-		if (window.matchMedia('(max-width: 713px)').matches){  
-
-			$('#wbc-mainnav').removeClass(" col-md-12 col-sm-12 hidden-sm hidden-xs");
-			$(window).scroll(function(){
-    			var topo = $(window).scrollTop();
-    			//Referente a Barra Estatica
-    			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"145px"});  
-            $('#header-search').css({"margin-top":"140px"});
-    			}
-
-    			//Referente a Barra Fixa
-    			else{  
-           $('.wbc-mainnav').css({"margin-top":"145px"});  
-           $('#header-search').css({"margin-top":"140px"});
-    			}
-			});
-		}
-
-		//Ajuste da Barra de Buscas na Resolução de 707px
-		if (window.matchMedia('(max-width: 707px)').matches){  
-
-			$('#wbc-mainnav').removeClass(" col-md-12 col-sm-12 hidden-sm hidden-xs");
-			$(window).scroll(function(){
-    			var topo = $(window).scrollTop();
-    			//Referente a Barra Estatica
-    			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"145px"});  
-            $('#header-search').css({"margin-top":"140px"});
-    			}
-
-    			//Referente a Barra Fixa
-    			else{ 
-            $('.wbc-mainnav').css({"margin-top":"145px"});  
-            $('#header-search').css({"margin-top":"140px"});
-    			}
-			});
-		}
-
 		//Ajuste da Barra de Buscas na Resolução de 700px
 		if (window.matchMedia('(max-width: 700px)').matches){  
 
@@ -854,15 +772,14 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Referente a Barra Estatica
     			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"168px"});  
-    				$('#header-search').css({"margin-top":"163px"});
+  					$('.wbc-mainnav').css({"margin-top":"145px"});  
+            $('#header-search').css({"margin-top":"140px"});
     			}
 
     			//Referente a Barra Fixa
     			else{
-              
-              		$('.wbc-mainnav').css({"margin-top":"168px"});  
-  			  		$('#header-search').css({"margin-top":"163px"});
+            $('.wbc-mainnav').css({"margin-top":"145px"});  
+            $('#header-search').css({"margin-top":"140px"});
     			}
 			});
 		}
