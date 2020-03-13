@@ -784,7 +784,8 @@ $(document).ready(function(){
     			}
 
     			//Referente a Barra Fixa
-    			else{  
+    			else{
+              
             $('.wbc-mainnav').css({"margin-top":"150px"});  
             $('#header-search').css({"margin-top":"145px"});
     			}
