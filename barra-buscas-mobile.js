@@ -358,13 +358,13 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Referente a Barra Estatica
     			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"50px"});  
+  					$('.wbc-mainnav').css({"margin-top":"80px"});  
             $('#header-search').css({"margin-top":"156px"});
     			}
 
     			//Referente a Barra Fixa
     			else{
-            $('.wbc-mainnav').css({"margin-top":"50px"});  
+            $('.wbc-mainnav').css({"margin-top":"80px"});  
             $('#header-search').css({"margin-top":"156px"});
     			}
 			});
@@ -378,13 +378,13 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Referente a Barra Estatica
     			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"50px"});  
+  					$('.wbc-mainnav').css({"margin-top":"80px"});  
             $('#header-search').css({"margin-top":"156px"});
     			}
 
     			//Referente a Barra Fixa
     			else{  
-            $('.wbc-mainnav').css({"margin-top":"50px"});  
+            $('.wbc-mainnav').css({"margin-top":"80px"});  
             $('#header-search').css({"margin-top":"156px"});
     			}
 			});
@@ -849,13 +849,13 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Referente a Barra Estatica
     			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"50px"});  
+  					$('.wbc-mainnav').css({"margin-top":"80px"});  
             $('#header-search').css({"margin-top":"156px"});
     			}
 
     			//Referente a Barra Fixa
     			else{        
-            $('.wbc-mainnav').css({"margin-top":"50px"});  
+            $('.wbc-mainnav').css({"margin-top":"80px"});  
             $('#header-search').css({"margin-top":"156px"});
     			}
 			});
@@ -869,13 +869,13 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Referente a Barra Estatica
     			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"50px"});  
+  					 $('.wbc-mainnav').css({"margin-top":"80px"});  
             $('#header-search').css({"margin-top":"156px"});
     			}
 
     			//Referente a Barra Fixa
     			else{  
-            $('.wbc-mainnav').css({"margin-top":"50px"});  
+            $('.wbc-mainnav').css({"margin-top":"80px"});  
             $('#header-search').css({"margin-top":"156px"});
     			}
 			});
