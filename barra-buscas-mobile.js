@@ -390,6 +390,26 @@ $(document).ready(function(){
 			});
 		}
 
+    //Ajuste da Barra de Buscas na Resolução de 538px
+    if (window.matchMedia('(max-width: 520px)').matches){  
+
+      $('#wbc-mainnav').removeClass(" col-md-12 col-sm-12 hidden-sm hidden-xs");
+      $(window).scroll(function(){
+          var topo = $(window).scrollTop();
+          //Referente a Barra Estatica
+          if(topo<151){
+            $('.wbc-mainnav').css({"margin-top":"135px"});  
+            $('#header-search').css({"margin-top":"150px"});
+          }
+
+          //Referente a Barra Fixa
+          else{  
+            $('.wbc-mainnav').css({"margin-top":"135px"});  
+            $('#header-search').css({"margin-top":"150px"});
+          }
+      });
+    }
+
 		//Ajuste da Barra de Buscas na Resolução de 497px
 		if (window.matchMedia('(max-width: 497px)').matches){  
 
@@ -880,6 +900,26 @@ $(document).ready(function(){
     			}
 			});
 		}
+
+    //Ajuste da Barra de Buscas na Resolução de 538px
+    if (window.matchMedia('(max-width: 520px)').matches){  
+
+      $('#wbc-mainnav').removeClass(" col-md-12 col-sm-12 hidden-sm hidden-xs");
+      $(window).scroll(function(){
+          var topo = $(window).scrollTop();
+          //Referente a Barra Estatica
+          if(topo<151){
+            $('.wbc-mainnav').css({"margin-top":"135px"});  
+            $('#header-search').css({"margin-top":"150px"});
+          }
+
+          //Referente a Barra Fixa
+          else{  
+            $('.wbc-mainnav').css({"margin-top":"135px"});  
+            $('#header-search').css({"margin-top":"150px"});
+          }
+      });
+    }
 
 		//Ajuste da Barra de Buscas na Resolução de 497px
 		if (window.matchMedia('(max-width: 497px)').matches){  
