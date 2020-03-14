@@ -378,14 +378,14 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Referente a Barra Estatica
     			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"80px"});  
-            $('#header-search').css({"margin-top":"156px"});
+  					$('.wbc-mainnav').css({"margin-top":"140px"});  
+            $('#header-search').css({"margin-top":"155px"});
     			}
 
     			//Referente a Barra Fixa
     			else{  
-            $('.wbc-mainnav').css({"margin-top":"80px"});  
-            $('#header-search').css({"margin-top":"156px"});
+            $('.wbc-mainnav').css({"margin-top":"140px"});  
+            $('#header-search').css({"margin-top":"155px"});
     			}
 			});
 		}
@@ -869,14 +869,14 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Referente a Barra Estatica
     			if(topo<151){
-  					 $('.wbc-mainnav').css({"margin-top":"80px"});  
-            $('#header-search').css({"margin-top":"156px"});
+  					$('.wbc-mainnav').css({"margin-top":"140px"});  
+            $('#header-search').css({"margin-top":"155px"});
     			}
 
     			//Referente a Barra Fixa
     			else{  
-            $('.wbc-mainnav').css({"margin-top":"80px"});  
-            $('#header-search').css({"margin-top":"156px"});
+            $('.wbc-mainnav').css({"margin-top":"140px"});  
+            $('#header-search').css({"margin-top":"155px"});
     			}
 			});
 		}
