@@ -359,13 +359,13 @@ $(document).ready(function(){
     			//Referente a Barra Estatica
     			if(topo<151){
   					$('.wbc-mainnav').css({"margin-top":"50px"});  
-            $('#header-search').css({"margin-top":"123px"});
+            $('#header-search').css({"margin-top":"156px"});
     			}
 
     			//Referente a Barra Fixa
     			else{
             $('.wbc-mainnav').css({"margin-top":"50px"});  
-            $('#header-search').css({"margin-top":"123px"});
+            $('#header-search').css({"margin-top":"156px"});
     			}
 			});
 		}
@@ -379,13 +379,13 @@ $(document).ready(function(){
     			//Referente a Barra Estatica
     			if(topo<151){
   					$('.wbc-mainnav').css({"margin-top":"50px"});  
-            $('#header-search').css({"margin-top":"123px"});
+            $('#header-search').css({"margin-top":"156px"});
     			}
 
     			//Referente a Barra Fixa
     			else{  
             $('.wbc-mainnav').css({"margin-top":"50px"});  
-            $('#header-search').css({"margin-top":"123px"});
+            $('#header-search').css({"margin-top":"156px"});
     			}
 			});
 		}
@@ -850,13 +850,13 @@ $(document).ready(function(){
     			//Referente a Barra Estatica
     			if(topo<151){
   					$('.wbc-mainnav').css({"margin-top":"50px"});  
-            $('#header-search').css({"margin-top":"123px"});
+            $('#header-search').css({"margin-top":"156px"});
     			}
 
     			//Referente a Barra Fixa
     			else{        
             $('.wbc-mainnav').css({"margin-top":"50px"});  
-            $('#header-search').css({"margin-top":"123px"});
+            $('#header-search').css({"margin-top":"156px"});
     			}
 			});
 		}
@@ -870,13 +870,13 @@ $(document).ready(function(){
     			//Referente a Barra Estatica
     			if(topo<151){
   					$('.wbc-mainnav').css({"margin-top":"50px"});  
-            $('#header-search').css({"margin-top":"123px"});
+            $('#header-search').css({"margin-top":"156px"});
     			}
 
     			//Referente a Barra Fixa
     			else{  
             $('.wbc-mainnav').css({"margin-top":"50px"});  
-            $('#header-search').css({"margin-top":"123px"});
+            $('#header-search').css({"margin-top":"156px"});
     			}
 			});
 		}
