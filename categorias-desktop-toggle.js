@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $('.desktopclose').css({"display":"none"});
     $('.icon-bars').css({"display":"none"});
+    $('.barshomedesk').css({"display":"none"});
 
     if ($(window).width() > 1023){  
       $('.header-inner').append('<i class="icon-bars barshomedesk"></i>');
@@ -8,6 +9,7 @@ $(document).ready(function(){
 
       $('.desktopclose').css({"display":"none"});
       $('.icon-bars').css({"display":"none"});
+      $('.barshomedesk').css({"display":"none"});
         
         $(window).scroll(function(){
           var topo = $(window).scrollTop();
@@ -56,10 +58,12 @@ $(document).ready(function(){
     $(window).resize(function(){
         $('.desktopclose').css({"display":"none"});
         $('.icon-bars').css({"display":"none"});
+        $('.barshomedesk').css({"display":"none"});
 
     	if ($(window).width() > 1023){  
       		$('.desktopclose').css({"display":"none"});
       		$('.icon-bars').css({"display":"none"});
+      		$('.barshomedesk').css({"display":"none"});
         
         	$(window).scroll(function(){
           	var topo = $(window).scrollTop();
