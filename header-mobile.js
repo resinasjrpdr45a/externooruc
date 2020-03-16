@@ -51,7 +51,7 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Fixa
     		else{
               
-             	 $('.header-cart ').css({"top":"0"});    
+          $('.header-cart ').css({"top":"0"});    
     		}
 		});
 	}
@@ -79,7 +79,7 @@ $(document).ready(function(){
     			//Conteudos referentes a Barra Fixa
     			else{
               
-              		$('.header-cart ').css({"top":"0"});  
+            $('.header-cart ').css({"top":"0"});  
     			}
 			});
 		}
@@ -106,7 +106,7 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Fixa
     		else{
               
-              	$('.header-cart ').css({"top":"-10px"});   
+          $('.header-cart ').css({"top":"-10px"});   
     		}
 		});
 	}
