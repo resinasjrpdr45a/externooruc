@@ -37,6 +37,17 @@ $(document).ready(function(){
     $('#header_logo').addClass("col-md-3 col-sm-6 col-xs-7")
   }
 
+  // Funçao Resize do Header
+  $(window).resize(function(){
+    if ($(window).width() > 1023){  
+      //Remoçao das Colunas do Logo
+    $('#header_logo').addClass("col-md-3 col-sm-6 col-xs-7")
+  }
+    
+  });
+
+
+
 	//Edição no scroll do Header Mobile 
 	if ($(window).width() <= 1023){  
   
