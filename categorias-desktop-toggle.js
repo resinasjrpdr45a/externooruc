@@ -53,7 +53,7 @@ $(document).ready(function(){
     $(window).resize(function(){
     	if ($(window).width() > 1023){  
       		$('.desktopclose').css({"display":"none"});
-      		$('.barshomedesk').css({"display":"none"});
+      		$('.icon-bars').css({"display":"none"});
         
         	$(window).scroll(function(){
           	var topo = $(window).scrollTop();
