@@ -54,6 +54,9 @@ $(document).ready(function(){
     }
 
     $(window).resize(function(){
+        $('.desktopclose').css({"display":"none"});
+        $('.icon-bars').css({"display":"none"});
+
     	if ($(window).width() > 1023){  
       		$('.desktopclose').css({"display":"none"});
       		$('.icon-bars').css({"display":"none"});
