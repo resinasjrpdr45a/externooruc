@@ -4,7 +4,7 @@ $(document).ready(function(){
       $('.header-inner').append('<i class="fas fa-times desktopclose"></i>');
 
       $('.desktopclose').css({"display":"none"});
-      $('.barshomedesk').css({"display":"none"});
+      $('.icon-bars').css({"display":"none"});
         
         $(window).scroll(function(){
           var topo = $(window).scrollTop();
