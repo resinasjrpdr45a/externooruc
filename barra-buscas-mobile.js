@@ -10,7 +10,7 @@ $(document).ready(function(){
 				
 				$('.menu-mobile').append('<i class="fas fa-times"></i>');
 				$('.fa-times').addClass('closemobile');
-        		$('.closemobile').css({"display":"none"});
+        $('.closemobile').css({"display":"none"});
 				
 				$('.menu-mobile .icon-bars').click(function(){
 					$('.icon-bars').css({"display":"none"});
@@ -30,9 +30,9 @@ $(document).ready(function(){
 			
 			}else{
 
-        	$('.closemobile').css({"display":"none"});
-        	$('.fa-times').removeClass('closemobile');
-      		}
+        $('.closemobile').css({"display":"none"});
+        $('.fa-times').removeClass('closemobile');
+      }
 		
 
 
@@ -53,12 +53,6 @@ $(document).ready(function(){
 		}
 
 		//Barra de Buscas
-		if (window.matchMedia('(max-width: 1024px)').matches){  
-				alert("ok é big");
-
-
-		}
-
 		if (window.matchMedia('(max-width: 1023px)').matches){  
 			//Removedor de Classes
 			$('#header-search').removeClass("col-md-offset-1 col-md-6 col-sm-12 col-xs-12");	
