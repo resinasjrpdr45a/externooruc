@@ -54,6 +54,11 @@ $(document).ready(function(){
 
     }
 
+    if (window.matchMedia('(max-width: 1023px)').matches){  
+      $('.barshomedesk').css({"display":"none"});
+      $('.desktopclose').css({"display":"none"});
+    }
+
     $(window).resize(function(){
         $('.desktopclose').css({"display":"none"});
         $('.barshomedesk').css({"display":"none"});
@@ -101,6 +106,11 @@ $(document).ready(function(){
     else{
         $('.barshomedesk').css({"display":"none"});
         $('.desktopclose').css({"display":"none"});
+    }
+
+    if (window.matchMedia('(max-width: 1023px)').matches){  
+      $('.barshomedesk').css({"display":"none"});
+      $('.desktopclose').css({"display":"none"});
     }
 
 	});    
