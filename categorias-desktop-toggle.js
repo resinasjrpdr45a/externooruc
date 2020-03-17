@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('.desktopclose').css({"display":"none"});
     $('.barshomedesk').css({"display":"none"});
 
-    if ($(window).width() > 1023){  
+    if ($(window).width() >= 1024){  
       $('.header-inner').append('<i class="icon-bars barshomedesk"></i>');
       $('.header-inner').append('<i class="fas fa-times desktopclose"></i>');
 
@@ -75,16 +75,13 @@ $(document).ready(function(){
 
     }
 
-    if ($(window).width() >= 1024){  
-      alert("É PC");
-
-    }
+    
 
     $(window).resize(function(){
         $('.desktopclose').css({"display":"none"});
         $('.barshomedesk').css({"display":"none"});
 
-    	if ($(window).width() > 1023){  
+    	if ($(window).width() >= 1024){  
       		$('.desktopclose').css({"display":"none"});
       		$('.icon-bars').css({"display":"none"});
       		$('.barshomedesk').css({"display":"none"});
