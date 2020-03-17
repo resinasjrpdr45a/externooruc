@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('.desktopclose').css({"display":"none"});
     $('.barshomedesk').css({"display":"none"});
 
-    if ($(window).width() > 1023){  
+    if (window.matchMedia('(max-width: 1023px)').matches){  
       $('.header-inner').append('<i class="icon-bars barshomedesk"></i>');
       $('.header-inner').append('<i class="fas fa-times desktopclose"></i>');
 
@@ -58,7 +58,7 @@ $(document).ready(function(){
         $('.desktopclose').css({"display":"none"});
         $('.barshomedesk').css({"display":"none"});
 
-    	if ($(window).width() > 1023){  
+    	if (window.matchMedia('(max-width: 1023px)').matches){  
       		$('.desktopclose').css({"display":"none"});
       		$('.icon-bars').css({"display":"none"});
       		$('.barshomedesk').css({"display":"none"});
