@@ -75,6 +75,11 @@ $(document).ready(function(){
 
     }
 
+    if ($(window).width() >= 1024){  
+      alert("É PC");
+
+    }
+
     $(window).resize(function(){
         $('.desktopclose').css({"display":"none"});
         $('.barshomedesk').css({"display":"none"});
@@ -123,28 +128,9 @@ $(document).ready(function(){
         $('.barshomedesk').css({"display":"none"});
         $('.desktopclose').css({"display":"none"});
 
-         $(window).scroll(function(){
-          var topo = $(window).scrollTop();
-          if(topo<151){   
-            $('.barshomedesk').css({"display":"none"});
-            $('.header-inner #header-right-cart').css({"margin-top":"0"});
-            $('.header-inner .icon-shopping-cart').css({"font-size":"73px"});
-            $('.header-inner .header-cart ').css({"top":"0"});
-            $('.desktopclose').css({"display":"none"});
-            $('.barshomedesk').addClass("icon-bars");
-            $('#wbc-mainnav').removeClass("activetog");
-          }
-
-          else{
-                    
-            $('.barshomedesk').css({"display":"none"});
-            $('.header-inner #header-right-cart').css({"margin-top":"0"});
-            $('.header-inner .icon-shopping-cart').css({"font-size":"60px"});
-            $('.header-inner .header-cart').css({"top":"10px"});
-            ;
-          }
-      });
     }
+
+
 
 	});    
 });
