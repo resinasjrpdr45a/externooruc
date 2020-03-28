@@ -12,7 +12,7 @@ $(document).ready(function(){
         
         $(window).scroll(function(){
           var topo = $(window).scrollTop();
-          if(topo<151){   
+          if(topo<155){   
             $('.barshomedesk').css({"display":"none"});
             $('.header-inner #header-right-cart').css({"margin-top":"20px"});
             $('.header-inner .icon-shopping-cart').css({"font-size":"73px"});
@@ -67,7 +67,7 @@ $(document).ready(function(){
         
         	$(window).scroll(function(){
           	var topo = $(window).scrollTop();
-          		if(topo<151){
+          		if(topo<155){
                 	$('.barshomedesk').css({"display":"none"});
                   $('.header-inner .logo-theme img').css({"width":"170px"});
                 	$('.header-inner #header-right-cart').css({"margin-top":"20px"});
