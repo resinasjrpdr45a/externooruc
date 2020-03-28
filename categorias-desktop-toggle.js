@@ -56,6 +56,29 @@ $(document).ready(function(){
         $('.barshomedesk').css({"display":"none"});
         $('.desktopclose').css({"display":"none"});
 
+        $(window).scroll(function(){
+          var topo = $(window).scrollTop();
+          if(topo<151){   
+            $('.barshomedesk').css({"display":"none"});
+            $('.header-inner #header-right-cart').css({"margin-top":"0"});
+            $('.header-inner .icon-shopping-cart').css({"font-size":"0"});
+            $('.header-inner .header-cart ').css({"top":"0"});
+            $('.desktopclose').css({"display":"none"});
+            $('#product .offcanvas-siderbars').css({"padding-top":"0"});
+          }
+
+          else{
+                    
+            $('.barshomedesk').css({"display":"none"});
+            $('#product .offcanvas-siderbars').css({"padding-top":"0"});
+            $('.header-inner #header-right-cart').css({"margin-top":"0"});
+            $('.header-inner .icon-shopping-cart').css({"font-size":"0"});
+            $('.header-inner .header-cart').css({"top":"10px"});
+            $('.desktopclose').css({"display":"none"});
+            ;
+          }
+      });
+
     }
 
     $(window).resize(function(){
@@ -109,6 +132,30 @@ $(document).ready(function(){
     else{
         $('.barshomedesk').css({"display":"none"});
         $('.desktopclose').css({"display":"none"});
+
+
+         $(window).scroll(function(){
+          var topo = $(window).scrollTop();
+          if(topo<151){   
+            $('.barshomedesk').css({"display":"none"});
+            $('.header-inner #header-right-cart').css({"margin-top":"0"});
+            $('.header-inner .icon-shopping-cart').css({"font-size":"0"});
+            $('.header-inner .header-cart ').css({"top":"0"});
+            $('.desktopclose').css({"display":"none"});
+            $('#product .offcanvas-siderbars').css({"padding-top":"0"});
+          }
+
+          else{
+                    
+            $('.barshomedesk').css({"display":"none"});
+            $('#product .offcanvas-siderbars').css({"padding-top":"0"});
+            $('.header-inner #header-right-cart').css({"margin-top":"0"});
+            $('.header-inner .icon-shopping-cart').css({"font-size":"0"});
+            $('.header-inner .header-cart').css({"top":"10px"});
+            $('.desktopclose').css({"display":"none"});
+            ;
+          }
+      });
     }
 
 	});    
