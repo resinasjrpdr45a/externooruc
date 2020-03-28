@@ -62,7 +62,6 @@ $(document).ready(function(){
           if(topo<151){   
             $('.barshomedesk').css({"display":"none"});
             $('.header-inner #header-right-cart').css({"margin-top":"0"});
-            $('.header-inner .icon-shopping-cart').css({"font-size":"0"});
             $('.header-inner .header-cart ').css({"top":"0"});
             $('.desktopclose').css({"display":"none"});
             $('#product .offcanvas-siderbars').css({"padding-top":"0"});
@@ -73,7 +72,6 @@ $(document).ready(function(){
             $('.barshomedesk').css({"display":"none"});
             $('#product .offcanvas-siderbars').css({"padding-top":"0"});
             $('.header-inner #header-right-cart').css({"margin-top":"0"});
-            $('.header-inner .icon-shopping-cart').css({"font-size":"0"});
             $('.header-inner .header-cart').css({"top":"10px"});
             $('.desktopclose').css({"display":"none"});
             ;
@@ -141,7 +139,6 @@ $(document).ready(function(){
           if(topo<151){   
             $('.barshomedesk').css({"display":"none"});
             $('.header-inner #header-right-cart').css({"margin-top":"20px"});
-            $('.header-inner .icon-shopping-cart').css({"font-size":"0"});
             $('.header-inner .header-cart ').css({"top":"0"});
             $('.desktopclose').css({"display":"none"});
             $('#product .offcanvas-siderbars').css({"padding-top":"0"});
@@ -152,7 +149,6 @@ $(document).ready(function(){
             $('.barshomedesk').css({"display":"none"});
             $('#product .offcanvas-siderbars').css({"padding-top":"0"});
             $('.header-inner #header-right-cart').css({"margin-top":"20px"});
-            $('.header-inner .icon-shopping-cart').css({"font-size":"0"});
             $('.header-inner .header-cart').css({"top":"10px"});
             $('.desktopclose').css({"display":"none"});
             ;
