@@ -2,11 +2,11 @@ $(document).ready(function(){
 
 		//Barra de Categorias e Buscas
 		//Barra de Categorias
-		if (window.matchMedia('(max-width: 1023px)').matches){  
+		if (window.matchMedia('(max-width: 1024px)').matches){  
   			
   			
         //Botão Fechar Toggle
-  			if ($(window).width() <= 1023){  
+  			if ($(window).width() <= 1024){  
 				
 				$('.menu-mobile').append('<i class="fas fa-times"></i>');
 				$('.fa-times').addClass('closemobile');
@@ -40,7 +40,7 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Categorias referentes a Barra Estatica
     			if(topo<151){
-  					 $('.wbc-mainnav').css({"margin-top":"195px"});  
+  			$('.wbc-mainnav').css({"margin-top":"195px"});  
             $('#header-search').css({"margin-top":"156px"});	      		
     			}
 
@@ -81,6 +81,7 @@ $(document).ready(function(){
 			//Adicionador de Classes
 			$('#header-search').addClass("col-md-offset-1 col-md-6 col-sm-12 col-xs-12");
 			$('#suggestions1').addClass("col-lg-10 col-md-10 col-sm-12 col-xs-12");
+			$('#wbc-mainnav').removeClass(" col-md-12 col-sm-12 hidden-sm hidden-xs");
 		}
 
 		//Ajuste da Barra de Buscas na Resolução de 999px
@@ -150,6 +151,57 @@ $(document).ready(function(){
 				
 		// Funçao Resize da Barra de Buscas e Categorias
 		$(window).resize(function(){
+			if (window.matchMedia('(max-width: 1024px)').matches){  
+  			
+  			
+        //Botão Fechar Toggle
+  			if ($(window).width() <= 1024){  
+				
+				$('.menu-mobile').append('<i class="fas fa-times"></i>');
+				$('.fa-times').addClass('closemobile');
+        $('.closemobile').css({"display":"none"});
+				
+				$('.menu-mobile .icon-bars').click(function(){
+					$('.icon-bars').css({"display":"none"});
+					$('.closemobile').css({"display":"block"});
+				});
+
+				$('.menu-mobile .closemobile').click(function(){
+					$('.closemobile').css({"display":"none"});
+					$('.icon-bars').css({"display":"block"});
+				});
+
+				$('#main-content-overlay').click(function(){
+					$('.closemobile').css({"display":"none"});
+					$('.icon-bars').css({"display":"block"});
+
+				});
+			
+			}else{
+
+        $('.closemobile').css({"display":"none"});
+        $('.fa-times').removeClass('closemobile');
+      }
+		
+
+
+  			$(window).scroll(function(){
+    			var topo = $(window).scrollTop();
+    			//Categorias referentes a Barra Estatica
+    			if(topo<151){
+  			$('.wbc-mainnav').css({"margin-top":"195px"});  
+            $('#header-search').css({"margin-top":"156px"});	      		
+    			}
+
+    			//Categorias referentes a Barra Fixa
+    			else{
+           	$('.wbc-mainnav').css({"margin-top":"160px"});  
+            $('#header-search').css({"margin-top":"162px"});	    
+    			}
+			}); 
+		}	
+
+
 			//Barra de Categorias e Buscas
 		//Barra de Categorias
 		if (window.matchMedia('(max-width: 1023px)').matches){  
@@ -196,6 +248,7 @@ $(document).ready(function(){
 			//Adicionador de Classes
 			$('#header-search').addClass("col-md-offset-1 col-md-6 col-sm-12 col-xs-12");
 			$('#suggestions1').addClass("col-lg-10 col-md-10 col-sm-12 col-xs-12");
+			$('#wbc-mainnav').removeClass(" col-md-12 col-sm-12 hidden-sm hidden-xs");
 		}
 
 		//Ajuste da Barra de Buscas na Resolução de 999px
