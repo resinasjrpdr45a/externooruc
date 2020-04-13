@@ -40,14 +40,14 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Categorias referentes a Barra Estatica
     			if(topo<151){
-  			$('.wbc-mainnav').css({"margin-top":"195px"});  
-            $('#header-search').css({"margin-top":"156px"});	      		
+  			$('.wbc-mainnav').css({"margin-top":"0"});  
+            $('#header-search').css({"margin-top":"0"});	      		
     			}
 
     			//Categorias referentes a Barra Fixa
     			else{
-           	$('.wbc-mainnav').css({"margin-top":"160px"});  
-            $('#header-search').css({"margin-top":"162px"});	    
+           	$('.wbc-mainnav').css({"margin-top":"0"});  
+            $('#header-search').css({"margin-top":"0"});	    
     			}
 			}); 
 		}
@@ -189,14 +189,14 @@ $(document).ready(function(){
     			var topo = $(window).scrollTop();
     			//Categorias referentes a Barra Estatica
     			if(topo<151){
-  			$('.wbc-mainnav').css({"margin-top":"195px"});  
-            $('#header-search').css({"margin-top":"156px"});	      		
+  			$('.wbc-mainnav').css({"margin-top":"0"});  
+            $('#header-search').css({"margin-top":"0"});	      		
     			}
 
     			//Categorias referentes a Barra Fixa
     			else{
-           	$('.wbc-mainnav').css({"margin-top":"160px"});  
-            $('#header-search').css({"margin-top":"162px"});	    
+           	$('.wbc-mainnav').css({"margin-top":"0"});  
+            $('#header-search').css({"margin-top":"0"});	    
     			}
 			}); 
 		}	
