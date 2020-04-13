@@ -34,7 +34,8 @@ $(document).ready(function(){
         $('.fa-times').removeClass('closemobile');
       }
 		
-
+      		$('.wbc-mainnav').css({"margin-top":"0"});  
+            $('#header-search').css({"margin-top":"0"});	
 
   			$(window).scroll(function(){
     			var topo = $(window).scrollTop();
@@ -64,7 +65,7 @@ $(document).ready(function(){
     			//Referente a Barra Estatica
     			if(topo<151){
   					$('.wbc-mainnav').css({"margin-top":"195px"});  
-            $('#header-search').css({"margin-top":"156px"});
+            		$('#header-search').css({"margin-top":"156px"});
     		
     			}
 
@@ -183,8 +184,10 @@ $(document).ready(function(){
         $('.fa-times').removeClass('closemobile');
       }
 		
+      		$('.wbc-mainnav').css({"margin-top":"0"});  
+            $('#header-search').css({"margin-top":"0"});	
 
-
+  			
   			$(window).scroll(function(){
     			var topo = $(window).scrollTop();
     			//Categorias referentes a Barra Estatica
