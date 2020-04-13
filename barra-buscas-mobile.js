@@ -4,7 +4,8 @@ $(document).ready(function(){
 		//Barra de Categorias
 		if (window.matchMedia('(max-width: 1024px)').matches){  
   			
-  			
+  			$('.wbc-mainnav').css({"margin-top":"0"});  
+            $('#header-search').css({"margin-top":"0"});	
         //Botão Fechar Toggle
   			if ($(window).width() <= 1024){  
 				
@@ -154,7 +155,8 @@ $(document).ready(function(){
 		$(window).resize(function(){
 			if (window.matchMedia('(max-width: 1024px)').matches){  
   			
-  			
+  			$('.wbc-mainnav').css({"margin-top":"0"});  
+            $('#header-search').css({"margin-top":"0"});	
         //Botão Fechar Toggle
   			if ($(window).width() <= 1024){  
 				
