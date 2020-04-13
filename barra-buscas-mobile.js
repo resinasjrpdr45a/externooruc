@@ -47,7 +47,7 @@ $(document).ready(function(){
     			//Categorias referentes a Barra Fixa
     			else{
            	$('.wbc-mainnav').css({"margin-top":"0"});  
-            $('#header-search').css({"margin-top":"0"});	    
+            $('#header-search').css({"margin-top":"140px"});	    
     			}
 			}); 
 		}
@@ -196,7 +196,7 @@ $(document).ready(function(){
     			//Categorias referentes a Barra Fixa
     			else{
            	$('.wbc-mainnav').css({"margin-top":"0"});  
-            $('#header-search').css({"margin-top":"0"});	    
+            $('#header-search').css({"margin-top":"140px"});	    
     			}
 			}); 
 		}	
