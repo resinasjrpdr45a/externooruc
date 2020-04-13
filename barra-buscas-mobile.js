@@ -63,8 +63,7 @@ $(document).ready(function(){
     			//Referente a Barra Estatica
     			if(topo<151){
   					$('.wbc-mainnav').css({"margin-top":"195px"});  
-            $('#header-search').css({"margin-top":"156px"});
-    		
+            		$('#header-search').css({"margin-top":"156px"});	
     			}
 
     			//Referente a Barra Fixa
@@ -80,6 +79,25 @@ $(document).ready(function(){
 			//Adicionador de Classes
 			$('#header-search').addClass("col-md-offset-1 col-md-6 col-sm-12 col-xs-12");
 			$('#suggestions1').addClass("col-lg-10 col-md-10 col-sm-12 col-xs-12");
+
+			//Efeito Scroll
+			$(window).scroll(function(){
+    			var topo = $(window).scrollTop();
+    			//Referente a Barra Estatica
+    			if(topo<151){
+  					$('.wbc-mainnav').css({"margin-top":"0"});  
+            		$('#header-search').css({"margin-top":"0"});	
+    			}
+
+    			//Referente a Barra Fixa
+    			else{
+              
+            $('.wbc-mainnav').css({"margin-top":"0"});  
+            $('#header-search').css({"margin-top":"0"});
+    			}
+			});
+
+
 		}
 
 		//Ajuste da Barra de Buscas na Resolução de 999px
