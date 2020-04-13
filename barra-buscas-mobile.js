@@ -57,6 +57,7 @@ $(document).ready(function(){
 			//Removedor de Classes
 			$('#header-search').removeClass("col-md-offset-1 col-md-6 col-sm-12 col-xs-12");	
 			$('#suggestions1').removeClass("col-lg-10 col-md-10 col-sm-12 col-xs-12");
+			$('#wbc-mainnav').addClass(" col-md-12 col-sm-12 hidden-sm hidden-xs");
 			//Efeito Scroll
 			$(window).scroll(function(){
     			var topo = $(window).scrollTop();
@@ -556,13 +557,13 @@ $(document).ready(function(){
     			//Categorias referentes a Barra Estatica
     			if(topo<151){
   					$('.wbc-mainnav').css({"margin-top":"195px"});  
-            $('#header-search').css({"margin-top":"156px"});	      		
+            		$('#header-search').css({"margin-top":"156px"});	      		
     			}
 
     			//Categorias referentes a Barra Fixa
     			else{
-            $('.wbc-mainnav').css({"margin-top":"160px"});  
-            $('#header-search').css({"margin-top":"162px"});	    
+            		$('.wbc-mainnav').css({"margin-top":"160px"});  
+            		$('#header-search').css({"margin-top":"162px"});	    
     			}
 			}); 
 		}
@@ -577,19 +578,20 @@ $(document).ready(function(){
 			//Removedor de Classes
 			$('#header-search').removeClass("col-md-offset-1 col-md-6 col-sm-12 col-xs-12");	
 			$('#suggestions1').removeClass("col-lg-10 col-md-10 col-sm-12 col-xs-12");
+			$('#wbc-mainnav').addClass(" col-md-12 col-sm-12 hidden-sm hidden-xs");
 			//Efeito Scroll
 			$(window).scroll(function(){
     			var topo = $(window).scrollTop();
     			//Referente a Barra Estatica
     			if(topo<151){
   					$('.wbc-mainnav').css({"margin-top":"195px"});  
-            $('#header-search').css({"margin-top":"156px"});          		
+            		$('#header-search').css({"margin-top":"156px"});          		
     			}
 
     			//Referente a Barra Fixa
     			else{  
-            $('.wbc-mainnav').css({"margin-top":"160px"});  
-            $('#header-search').css({"margin-top":"162px"});    
+            		$('.wbc-mainnav').css({"margin-top":"160px"});  
+            		$('#header-search').css({"margin-top":"162px"});    
     			}
 			});
 		}
@@ -612,7 +614,7 @@ $(document).ready(function(){
     			//Referente a Barra Estatica
     			if(topo<151){
   					$('.wbc-mainnav').css({"margin-top":"195px"});  
-            $('#header-search').css({"margin-top":"153px"});
+            		$('#header-search').css({"margin-top":"153px"});
     			}
 
     			//Referente a Barra Fixa
@@ -697,13 +699,13 @@ $(document).ready(function(){
     			//Referente a Barra Estatica
     			if(topo<151){
   					$('.wbc-mainnav').css({"margin-top":"145px"});  
-            $('#header-search').css({"margin-top":"140px"});
+            		$('#header-search').css({"margin-top":"140px"});
     			}
 
     			//Referente a Barra Fixa
     			else{
-            $('.wbc-mainnav').css({"margin-top":"145px"});  
-            $('#header-search').css({"margin-top":"140px"});
+            		$('.wbc-mainnav').css({"margin-top":"145px"});  
+            		$('#header-search').css({"margin-top":"140px"});
     			}
 			});
 		}
