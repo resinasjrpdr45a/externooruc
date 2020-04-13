@@ -35,25 +35,14 @@ $(document).ready(function(){
       }
 		
 
-
-  			$(window).scroll(function(){
-    			var topo = $(window).scrollTop();
-    			//Categorias referentes a Barra Estatica
-    			if(topo<151){
-  					 $('.wbc-mainnav').css({"margin-top":"195px"});  
-            $('#header-search').css({"margin-top":"156px"});	      		
-    			}
-
-    			//Categorias referentes a Barra Fixa
-    			else{
-           	$('.wbc-mainnav').css({"margin-top":"160px"});  
-            $('#header-search').css({"margin-top":"162px"});	    
-    			}
-			}); 
+ 
 		}
 
 		//Barra de Buscas
 		if (window.matchMedia('(max-width: 1023px)').matches){  
+			$('.wbc-mainnav').css({"margin-top":"0"});  
+    		$('#header-search').css({"margin-top":"0"});
+
 			//Removedor de Classes
 			$('#header-search').removeClass("col-md-offset-1 col-md-6 col-sm-12 col-xs-12");	
 			$('#suggestions1').removeClass("col-lg-10 col-md-10 col-sm-12 col-xs-12");
@@ -550,31 +539,11 @@ $(document).ready(function(){
 		// Funçao Resize da Barra de Buscas e Categorias
 		$(window).resize(function(){
 			//Barra de Categorias e Buscas
-		//Barra de Categorias
-		if (window.matchMedia('(max-width: 1023px)').matches){  
-  			$(window).scroll(function(){
-    			var topo = $(window).scrollTop();
-    			//Categorias referentes a Barra Estatica
-    			if(topo<151){
-  					$('.wbc-mainnav').css({"margin-top":"195px"});  
-            		$('#header-search').css({"margin-top":"156px"});	      		
-    			}
-
-    			//Categorias referentes a Barra Fixa
-    			else{
-            		$('.wbc-mainnav').css({"margin-top":"160px"});  
-            		$('#header-search').css({"margin-top":"162px"});	    
-    			}
-			}); 
-		}
-
-
-		
-		
-
-
 		//Barra de Buscas
 		if (window.matchMedia('(max-width: 1023px)').matches){  
+			$('.wbc-mainnav').css({"margin-top":"0"});  
+    		$('#header-search').css({"margin-top":"0"});
+
 			//Removedor de Classes
 			$('#header-search').removeClass("col-md-offset-1 col-md-6 col-sm-12 col-xs-12");	
 			$('#suggestions1').removeClass("col-lg-10 col-md-10 col-sm-12 col-xs-12");
