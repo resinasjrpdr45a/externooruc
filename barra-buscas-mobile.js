@@ -61,10 +61,7 @@ $(document).ready(function(){
 		if (window.matchMedia('(max-width: 992px)').matches){  
 
 			$('#wbc-mainnav').removeClass(" col-md-12 col-sm-12 hidden-sm hidden-xs");
-			$('.wbc-mainnav').css({"margin-top":"0"});  
-            $('#header-search').css({"margin-top":"0"});
-			
-			
+					
 		}
 
 		//Adicionador de Classe a Barra de Busca em Resoluçoes Acima de 992px
@@ -77,10 +74,6 @@ $(document).ready(function(){
 		if (window.matchMedia('(max-width: 991px)').matches){  
 
 			$('#wbc-mainnav').removeClass(" col-md-12 col-sm-12 hidden-sm hidden-xs");
-
-			$('.wbc-mainnav').css({"margin-top":"0"});  
-            $('#header-search').css({"margin-top":"0"});
-			
 			
 		}
 
