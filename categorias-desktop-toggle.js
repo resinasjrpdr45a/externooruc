@@ -23,6 +23,7 @@ $(document).ready(function(){
             $('.header-inner .logo-theme img').css({"width":"170px"});
             $('.barshomedesk').addClass("icon-bars");
             $('#wbc-mainnav').removeClass("activetog");
+            $('.wbc-mainnav').css({"margin-top":"0"});
           }
 
           else{
@@ -43,6 +44,7 @@ $(document).ready(function(){
           $('.desktopclose').css({"display":"block"});
           $('.barshomedesk').css({"display":"none"});
           $('.barshomedesk').removeClass("icon-bars");
+          $('.wbc-mainnav').css({"margin-top":"140px"});
       });
 
       $('.desktopclose').click(function(){
@@ -50,6 +52,7 @@ $(document).ready(function(){
           $('.desktopclose').css({"display":"none"});
           $('.barshomedesk').css({"display":"block"});
           $('.barshomedesk').addClass("icon-bars");
+          $('.wbc-mainnav').css({"margin-top":"0"});
       });     
     } 
 
@@ -67,6 +70,7 @@ $(document).ready(function(){
             $('.header-inner .header-cart ').css({"top":"0"});
             $('.desktopclose').css({"display":"none"});
             $('#product .offcanvas-siderbars').css({"padding-top":"0"});
+            $('.wbc-mainnav').css({"margin-top":"0"});
           }
 
           else{
@@ -104,6 +108,7 @@ $(document).ready(function(){
                 	$('.desktopclose').css({"display":"none"});
                 	$('.barshomedesk').addClass("icon-bars");
                 	$('#wbc-mainnav').removeClass("activetog");
+                  $('.wbc-mainnav').css({"margin-top":"0"});
           		}
 
           		else{      
@@ -146,6 +151,7 @@ $(document).ready(function(){
             $('.header-inner .header-cart ').css({"top":"0"});
             $('.desktopclose').css({"display":"none"});
             $('#product .offcanvas-siderbars').css({"padding-top":"0"});
+            $('.wbc-mainnav').css({"margin-top":"0"});
           }
 
           else{
