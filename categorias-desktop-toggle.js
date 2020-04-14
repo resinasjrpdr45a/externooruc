@@ -127,6 +127,7 @@ $(document).ready(function(){
           	$('.desktopclose').css({"display":"block"});
           	$('.barshomedesk').css({"display":"none"});
           	$('.barshomedesk').removeClass("icon-bars");
+            $('.wbc-mainnav').css({"margin-top":"140px"});
       	  });
 
       	$('.desktopclose').click(function(){
@@ -134,6 +135,7 @@ $(document).ready(function(){
           $('.desktopclose').css({"display":"none"});
           $('.barshomedesk').css({"display":"block"});
           $('.barshomedesk').addClass("icon-bars");
+          $('.wbc-mainnav').css({"margin-top":"0"});
      	});     
     } 
 
