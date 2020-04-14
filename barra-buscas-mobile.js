@@ -98,35 +98,7 @@ $(document).ready(function(){
 			if (window.matchMedia('(max-width: 1024px)').matches){  
   			
   			
-        //Botão Fechar Toggle
-  			if ($(window).width() <= 1023){  
-				
-			
-				$('.menu-mobile').append('<i class="fas fa-times"></i>');
-				$('.fa-times').addClass('closemobile');
-        $('.closemobile').css({"display":"none"});
-				
-				$('.menu-mobile .icon-bars').click(function(){
-					$('.icon-bars').css({"display":"none"});
-					$('.closemobile').css({"display":"block"});
-				});
-
-				$('.menu-mobile .closemobile').click(function(){
-					$('.closemobile').css({"display":"none"});
-					$('.icon-bars').css({"display":"block"});
-				});
-
-				$('#main-content-overlay').click(function(){
-					$('.closemobile').css({"display":"none"});
-					$('.icon-bars').css({"display":"block"});
-
-				});
-			
-			}else{
-
-        $('.closemobile').css({"display":"none"});
-        $('.fa-times').removeClass('closemobile');
-      }
+      
 		
       		
 		}	
