@@ -11,9 +11,10 @@ $(document).ready(function(){
 				
 				
 				
-        $('.closemobile').css({"display":"none"});
+        		
 				$('.menu-mobile').append('<i class="fas fa-times"></i>');
 				$('.fa-times').addClass('closemobile');
+				$('.closemobile').css({"display":"none"});
 				
 				$('.menu-mobile .icon-bars').click(function(){
 					$('.icon-bars').css({"display":"none"});
