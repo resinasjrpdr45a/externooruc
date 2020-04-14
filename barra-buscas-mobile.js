@@ -8,11 +8,9 @@ $(document).ready(function(){
             $('#header-search').css({"margin-top":"0"});	
         //Botão Fechar Toggle
   			if ($(window).width() <= 1024){  
-				$('.wbc-mainnav').css({"margin-top":"0"});  
-            $('#header-search').css({"margin-top":"0"});	
 				
-				$('.menu-mobile').append('<i class="fas fa-times"></i>');
-				$('.fa-times').addClass('closemobile');
+				
+				
         $('.closemobile').css({"display":"none"});
 				
 				$('.menu-mobile .icon-bars').click(function(){
