@@ -3,8 +3,7 @@ $(document).ready(function(){
     $('.barshomedesk').css({"display":"none"});
 
     if ($(window).width() > 1023){  
-      $('.header-inner').append('<i class="icon-bars barshomedesk"></i>');
-      $('.header-inner').append('<i class="fas fa-times desktopclose"></i>');
+
 
       $('.desktopclose').css({"display":"none"});
       $('.icon-bars').css({"display":"none"});
