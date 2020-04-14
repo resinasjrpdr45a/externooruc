@@ -6,11 +6,11 @@ $(document).ready(function(){
   			
   			
         //Botão Fechar Toggle
-  			if ($(window).width() <= 1024){  
+  			if ($(window).width() >= 1024){  
 				
+		$('.menu-mobile').append('<i class="fas fa-times"></i>');
+		$('.fa-times').addClass('closemobile');		
 				
-				$('.menu-mobile').append('<i class="fas fa-times"></i>');
-				$('.fa-times').addClass('closemobile');
         $('.closemobile').css({"display":"none"});
 				
 				$('.menu-mobile .icon-bars').click(function(){
@@ -84,10 +84,8 @@ $(document).ready(function(){
   			
   			
         //Botão Fechar Toggle
-  			if ($(window).width() <= 1024){  
+  			if ($(window).width() >= 1024){  
 				
-				$('.menu-mobile').append('<i class="fas fa-times"></i>');
-				$('.fa-times').addClass('closemobile');
         $('.closemobile').css({"display":"none"});
 				
 				$('.menu-mobile .icon-bars').click(function(){
