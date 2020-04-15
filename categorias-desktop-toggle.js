@@ -1,7 +1,6 @@
 $(document).ready(function(){
     if (window.matchMedia('(max-width: 1024px)').matches){
-      if ($(window).width() > 1023){  
-
+      
 
       $('.desktopclose').css({"display":"none"});
       $('.icon-bars').css({"display":"none"});
@@ -52,41 +51,5 @@ $(document).ready(function(){
           $('.wbc-mainnav').css({"margin-top":"0"});
       });     
     } 
-
-    else{
-
-        $('.barshomedesk').css({"display":"none"});
-        $('.desktopclose').css({"display":"none"});
-        $('.icon-bars').css({"display":"block"});
-
-        $(window).scroll(function(){
-          var topo = $(window).scrollTop();
-          if(topo<151){   
-            $('.barshomedesk').css({"display":"none"});
-            $('.header-inner #header-right-cart').css({"margin-top":"0"});
-            $('.header-inner .header-cart ').css({"top":"0"});
-            $('.desktopclose').css({"display":"none"});
-            $('#product .offcanvas-siderbars').css({"padding-top":"0"});
-            $('.wbc-mainnav').css({"margin-top":"0"});
-          }
-
-          else{
-                    
-            $('.barshomedesk').css({"display":"none"});
-            $('#product .offcanvas-siderbars').css({"padding-top":"0"});
-            $('.header-inner #header-right-cart').css({"margin-top":"0"});
-            $('.header-inner .header-cart').css({"top":"0"});
-            $('.desktopclose').css({"display":"none"});
-            ;
-          }
-      });
-
-    }
-
-
-
-    }
-
-    
-    
+   
 });
