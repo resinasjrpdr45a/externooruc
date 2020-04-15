@@ -94,8 +94,8 @@ $(document).ready(function(){
     $(window).resize(function(){
        
 
-        if (window.matchMedia('(max-width: 1024px)').matches){
-      if ($(window).width() > 1023){  
+        
+      
 
 
       $('.desktopclose').css({"display":"none"});
@@ -146,9 +146,9 @@ $(document).ready(function(){
           $('.barshomedesk').addClass("icon-bars");
           $('.wbc-mainnav').css({"margin-top":"0"});
       });     
-    } 
+     
 
-    else{
+    
 
         $('.barshomedesk').css({"display":"none"});
         $('.desktopclose').css({"display":"none"});
@@ -176,11 +176,11 @@ $(document).ready(function(){
           }
       });
 
-    }
+   
 
 
 
-    }
+    
 
         
 
