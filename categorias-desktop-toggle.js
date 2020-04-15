@@ -92,7 +92,7 @@ $(document).ready(function(){
 
     
     $(window).resize(function(){
-        $('.desktopclose').css({"display":"none"});
+       
 
         if (window.matchMedia('(max-width: 1024px)').matches){
       if ($(window).width() > 1023){  
