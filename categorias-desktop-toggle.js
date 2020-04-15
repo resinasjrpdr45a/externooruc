@@ -1,11 +1,5 @@
 $(document).ready(function(){
-    if (window.matchMedia('(max-width: 1024px)').matches){
-      
-
-      $('.desktopclose').css({"display":"none"});
-      $('.icon-bars').css({"display":"none"});
-      $('.barshomedesk').css({"display":"none"});
-        
+    if (window.matchMedia('(max-width: 1024px)').matches){        
         $(window).scroll(function(){
           var topo = $(window).scrollTop();
           if(topo<151){   
