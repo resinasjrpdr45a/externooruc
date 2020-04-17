@@ -3,9 +3,11 @@ $(document).ready(function(){
      
     if (window.matchMedia('(max-width: 1023px)').matches){ 
         $('.icon-shopping-cart').removeClass("icon-desk-cart");
+         $('.icon-desk-cart').addClass("icon-shopping-cart");
         $('.header-cart').removeClass("header-desk-cart");
      }else{
         $('.icon-shopping-cart').addClass("icon-desk-cart");
+        $('.icon-desk-cart').removeClass("icon-shopping-cart");
         $('.header-cart').addClass("header-desk-cart");
      }
 
@@ -84,9 +86,11 @@ $(document).ready(function(){
 
     if (window.matchMedia('(max-width: 1023px)').matches){ 
         $('.icon-shopping-cart').removeClass("icon-desk-cart");
+         $('.icon-desk-cart').addClass("icon-shopping-cart");
         $('.header-cart').removeClass("header-desk-cart");
      }else{
-        $('.icon-shopping-cart').addClass("icon-desk-cart");
+         $('.icon-shopping-cart').addClass("icon-desk-cart");
+        $('.icon-desk-cart').removeClass("icon-shopping-cart");
         $('.header-cart').addClass("header-desk-cart");
      }
      
