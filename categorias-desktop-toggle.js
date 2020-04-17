@@ -1,5 +1,8 @@
 $(document).ready(function(){
      if ($(window).width() > 1023){        
+        $('.header-inner').append('<i class="icon-bars barshomedesk"></i>');
+      $('.header-inner').append('<i class="fas fa-times desktopclose"></i>')
+
         $(window).scroll(function(){
           var topo = $(window).scrollTop();
           if(topo<151){   
