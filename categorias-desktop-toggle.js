@@ -1,7 +1,5 @@
 $(document).ready(function(){
     if (window.matchMedia('(max-width: 1024px)').matches){        
-        $('.header-inner').append('<i class="icon-bars barshomedesk"></i>');
-        $('.header-inner').append('<i class="fas fa-times desktopclose"></i>');
         $(window).scroll(function(){
           var topo = $(window).scrollTop();
           if(topo<151){   
@@ -27,7 +25,7 @@ $(document).ready(function(){
             $('.header-inner #header-right-cart').css({"margin-top":"30px"});
             $('.header-inner .icon-shopping-cart').css({"font-size":"60px"});
             $('.header-inner .header-cart').css({"top":"10px"});
-            
+            ;
           }
       });
 
