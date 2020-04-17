@@ -2,11 +2,11 @@ $(document).ready(function(){
 
      
     if (window.matchMedia('(max-width: 1023px)').matches){ 
-        $('.icon-shopping-cart').removeClass("icon-desk-cart");
+        $('.icon-shopping-cart').addClass("icon-desk-cart");
      }
 
      if (window.matchMedia('(max-width: 1024px)').matches){ 
-        $('.icon-shopping-cart').addClass("icon-desk-cart");
+        $('.icon-shopping-cart').removeClass("icon-desk-cart");
      }
 
      if ($(window).width() > 1023){        
@@ -81,11 +81,11 @@ $(document).ready(function(){
 
 
      if (window.matchMedia('(max-width: 1023px)').matches){ 
-        $('.icon-shopping-cart').removeClass("icon-desk-cart");
+        $('.icon-shopping-cart').addClass("icon-desk-cart");
      }
 
      if (window.matchMedia('(max-width: 1024px)').matches){ 
-        $('.icon-shopping-cart').addClass("icon-desk-cart");
+        $('.icon-shopping-cart').removeClass("icon-desk-cart");
      }
      
     
