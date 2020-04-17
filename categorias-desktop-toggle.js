@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    if (window.matchMedia('(max-width: 1024px)').matches){        
+     if ($(window).width() > 1023){        
         $(window).scroll(function(){
           var topo = $(window).scrollTop();
           if(topo<151){   
