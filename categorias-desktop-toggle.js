@@ -1,5 +1,14 @@
 $(document).ready(function(){
 
+     
+    if (window.matchMedia('(max-width: 1023px)').matches){ 
+        $('.icon-shopping-cart').removeClass("icon-desk-cart");
+     }
+
+     if (window.matchMedia('(max-width: 1024px)').matches){ 
+        $('.icon-shopping-cart').addClass("icon-desk-cart");
+     }
+
      if ($(window).width() > 1023){        
       $('.header-inner').append('<i class="icon-bars barshomedesk"></i>');
       $('.header-inner').append('<i class="fas fa-times desktopclose"></i>')
@@ -8,13 +17,6 @@ $(document).ready(function(){
      $('.icon-bars').css({"display":"none"});
      $('.desktopclose').css({"display":"none"}); 
 
-    if (window.matchMedia('(max-width: 1023px)').matches){ 
-        $('.icon-shopping-cart').removeClass("icon-desk-cart");
-     }
-
-     if (window.matchMedia('(max-width: 1024px)').matches){ 
-        $('.icon-shopping-cart').addClass("icon-desk-cart");
-     }
 
         $(window).scroll(function(){
           var topo = $(window).scrollTop();
