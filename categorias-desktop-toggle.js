@@ -59,5 +59,6 @@ $(document).ready(function(){
 
       $('.barshomedesk').css({"display":"none"});
       $('.desktopclose').css({"display":"none"});
+      $('.icon-bars').css({"display":"block"});
     }  
 });
