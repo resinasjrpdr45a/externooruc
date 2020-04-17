@@ -1,5 +1,6 @@
 $(document).ready(function(){
      $('.barshomedesk').css({"display":"none"});
+     $('.icon-bars').css({"display":"none"});
      $('.desktopclose').css({"display":"none"});
 
      if ($(window).width() > 1023){        
@@ -7,6 +8,7 @@ $(document).ready(function(){
       $('.header-inner').append('<i class="fas fa-times desktopclose"></i>')
 
      $('.barshomedesk').css({"display":"none"});
+     $('.icon-bars').css({"display":"none"});
      $('.desktopclose').css({"display":"none"}); 
 
         $(window).scroll(function(){
