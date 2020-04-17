@@ -25,7 +25,7 @@ $(document).ready(function(){
             $('.header-inner #header-right-cart').css({"margin-top":"30px"});
             $('.header-inner .icon-shopping-cart').css({"font-size":"60px"});
             $('.header-inner .header-cart').css({"top":"10px"});
-            ;
+            
           }
       });
 
