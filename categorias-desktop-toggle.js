@@ -1,10 +1,10 @@
 $(document).ready(function(){
      if ($(window).width() > 1023){        
-        $('.header-inner').append('<i class="icon-bars barshomedesk"></i>');
+      $('.header-inner').append('<i class="icon-bars barshomedesk"></i>');
       $('.header-inner').append('<i class="fas fa-times desktopclose"></i>')
 
         $('.barshomedesk').css({"display":"none"});
-         $('.icon-bars').css({"display":"none"});
+        $('.icon-bars').css({"display":"none"});
         $('.desktopclose').css({"display":"none"});
 
         $(window).scroll(function(){
