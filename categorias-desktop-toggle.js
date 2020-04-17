@@ -2,12 +2,12 @@ $(document).ready(function(){
 
      
     if (window.matchMedia('(max-width: 1023px)').matches){ 
+        $('.icon-shopping-cart').removeClass("icon-desk-cart");
+     }else{
         $('.icon-shopping-cart').addClass("icon-desk-cart");
      }
 
-     if (window.matchMedia('(max-width: 1024px)').matches){ 
-        $('.icon-shopping-cart').removeClass("icon-desk-cart");
-     }
+     
 
      if ($(window).width() > 1023){        
       $('.header-inner').append('<i class="icon-bars barshomedesk"></i>');
@@ -80,12 +80,10 @@ $(document).ready(function(){
      $('.menu-mobile .icon-bars').css({"display":"block"});
 
 
-     if (window.matchMedia('(max-width: 1023px)').matches){ 
-        $('.icon-shopping-cart').addClass("icon-desk-cart");
-     }
-
-     if (window.matchMedia('(max-width: 1024px)').matches){ 
+    if (window.matchMedia('(max-width: 1023px)').matches){ 
         $('.icon-shopping-cart').removeClass("icon-desk-cart");
+     }else{
+        $('.icon-shopping-cart').addClass("icon-desk-cart");
      }
      
     
