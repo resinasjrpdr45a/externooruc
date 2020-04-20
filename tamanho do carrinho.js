@@ -13,6 +13,7 @@ $(document).ready(function(){
     
 
       $('.header-inner .icon-mobile-cart').css({"font-size":"50px"});
+       $('.header-inner #header-right-cart').css({"margin-top":"0"});
 
 
 
@@ -34,6 +35,7 @@ $(document).ready(function(){
     
 
       $('.header-inner .icon-mobile-cart').css({"font-size":"50px"});
+       $('.header-inner #header-right-cart').css({"margin-top":"0"});
 
 
 
