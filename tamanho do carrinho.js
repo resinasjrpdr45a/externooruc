@@ -12,7 +12,8 @@ $(document).ready(function(){
      if ($(window).width() <= 1023){ 
         
 
-        $(window).scroll(function(){
+     
+   $(window).scroll(function(){
           var topo = $(window).scrollTop();
           if(topo<151){   
            $('.header-inner #header-right-cart').css({"margin-top":"24px"}); 
@@ -29,7 +30,38 @@ $(document).ready(function(){
 
 
 
+
+
+
      } 
+
+
+        if ($(window).width() <= 991){ 
+        
+
+     
+   $(window).scroll(function(){
+          var topo = $(window).scrollTop();
+          if(topo<151){   
+           $('.header-inner #header-right-cart').css({"margin-top":"5px"}); 
+          }
+
+          else{
+                    
+            $('.header-inner #header-right-cart').css({"margin-top":"0"}); 
+          }
+      });
+        
+
+
+
+
+
+
+
+
+     } 
+
 
 
 
@@ -46,6 +78,33 @@ $(document).ready(function(){
             $('.header-inner #header-right-cart').css({"margin-top":"0"}); 
           }
       });
+
+
+            if ($(window).width() <= 991){ 
+        
+
+     
+   $(window).scroll(function(){
+          var topo = $(window).scrollTop();
+          if(topo<151){   
+           $('.header-inner #header-right-cart').css({"margin-top":"5px"}); 
+          }
+
+          else{
+                    
+            $('.header-inner #header-right-cart').css({"margin-top":"0"}); 
+          }
+      });
+        
+
+
+
+
+
+
+
+
+     } 
 
     if (window.matchMedia('(max-width: 1023px)').matches){ 
         $('.icon-shopping-cart').addClass("icon-mobile-cart");
