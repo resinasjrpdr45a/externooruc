@@ -9,10 +9,20 @@ $(document).ready(function(){
      }
 
 
+     if ($(window).width() <= 1023){ 
+        
+        $('.header-inner #header-right-cart').css({"margin-top":"0"});
 
+
+
+
+
+
+     } 
 
     $(window).resize(function(){
 
+    $('.header-inner #header-right-cart').css({"margin-top":"0"});
 
     if (window.matchMedia('(max-width: 1023px)').matches){ 
         $('.icon-shopping-cart').addClass("icon-mobile-cart");
