@@ -11,7 +11,7 @@ $(document).ready(function(){
 
      if ($(window).width() <= 1023){ 
         
-      
+        $('.header-inner #header-right-cart').css({"margin-top":"30px"});
 
 
 
