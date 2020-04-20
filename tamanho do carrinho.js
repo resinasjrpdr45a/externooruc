@@ -9,7 +9,9 @@ $(document).ready(function(){
      }
 
 
-     if ($(window).width() <= 1023){ 
+      if (window.matchMedia('(max-width: 1023px)').matches){
+
+        if ($(window).width() <= 1023){ 
     
 
       $('.header-inner .icon-mobile-cart').css({"font-size":"50px"});
@@ -20,6 +22,10 @@ $(document).ready(function(){
 
      } 
 
+
+
+      }
+     
     $(window).resize(function(){
 
 
@@ -31,7 +37,9 @@ $(document).ready(function(){
         $('.header-cart').removeClass("header-mobile-cart");
      }
 
-     if ($(window).width() <= 1023){ 
+           if (window.matchMedia('(max-width: 1023px)').matches){
+
+        if ($(window).width() <= 1023){ 
     
 
       $('.header-inner .icon-mobile-cart').css({"font-size":"50px"});
@@ -41,6 +49,12 @@ $(document).ready(function(){
 
 
      } 
+
+
+        
+      }
+
+     
 
   });
 });
