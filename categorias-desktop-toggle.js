@@ -1,5 +1,7 @@
 $(document).ready(function(){
-
+    
+    $('.header-inner').append('<i class="icon-bars barshomedesk"></i>');
+    $('.header-inner').append('<i class="fas fa-times desktopclose"></i>');
      
     if (window.matchMedia('(max-width: 1023px)').matches){ 
         $('.icon-shopping-cart').removeClass("icon-desk-cart");
@@ -12,8 +14,7 @@ $(document).ready(function(){
      
 
      if ($(window).width() > 1023){        
-      $('.header-inner').append('<i class="icon-bars barshomedesk"></i>');
-      $('.header-inner').append('<i class="fas fa-times desktopclose"></i>');
+
 
      $('.barshomedesk').css({"display":"none"});
      $('.icon-bars').css({"display":"none"});
