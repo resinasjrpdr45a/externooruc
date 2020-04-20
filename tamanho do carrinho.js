@@ -9,23 +9,8 @@ $(document).ready(function(){
      }
 
 
-      if (window.matchMedia('(max-width: 1023px)').matches){
-
-        if ($(window).width() <= 1023){ 
-    
-
-      $('.header-inner .icon-mobile-cart').css({"font-size":"50px"});
-       $('.header-inner #header-right-cart').css({"margin-top":"0"});
 
 
-
-
-     } 
-
-
-
-      }
-     
     $(window).resize(function(){
 
 
@@ -36,25 +21,6 @@ $(document).ready(function(){
         $('.icon-shopping-cart').removeClass("icon-mobile-cart");
         $('.header-cart').removeClass("header-mobile-cart");
      }
-
-           if (window.matchMedia('(max-width: 1023px)').matches){
-
-        if ($(window).width() <= 1023){ 
-    
-
-      $('.header-inner .icon-mobile-cart').css({"font-size":"50px"});
-       $('.header-inner #header-right-cart').css({"margin-top":"0"});
-
-
-
-
-     } 
-
-
-        
-      }
-
-     
 
   });
 });
