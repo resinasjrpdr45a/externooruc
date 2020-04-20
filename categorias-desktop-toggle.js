@@ -25,7 +25,6 @@ $(document).ready(function(){
           if(topo<151){   
             $('.header-desk-cart').css({"top":"0"});
             $('.barshomedesk').css({"display":"none"});
-            $('.header-inner #header-right-cart').css({"margin-top":"20px"});
             $('.header-inner .icon-desk-cart').css({"font-size":"73px"});
             $('.header-inner .header-cart ').css({"top":"0"});
             $('.desktopclose').css({"display":"none"});
@@ -44,7 +43,6 @@ $(document).ready(function(){
             $('.header-inner .logo-theme img').css({"width":"123px"});
             $('#product .offcanvas-siderbars').css({"padding-top":"250px"});
             $('#category .offcanvas-siderbars').css({"padding-top":"250px"});
-            $('.header-inner #header-right-cart').css({"margin-top":"30px"});
             $('.header-inner .icon-desk-cart').css({"font-size":"60px"});
             $('.header-inner .header-cart').css({"top":"10px"});
             ;
@@ -102,7 +100,6 @@ $(document).ready(function(){
           if(topo<151){   
             $('.header-desk-cart').css({"top":"0"});
             $('.barshomedesk').css({"display":"none"});
-            $('.header-inner #header-right-cart').css({"margin-top":"20px"});
             $('.header-inner .icon-desk-cart').css({"font-size":"73px"});
             $('.header-inner .header-cart ').css({"top":"0"});
             $('.desktopclose').css({"display":"none"});
@@ -121,7 +118,6 @@ $(document).ready(function(){
             $('.header-inner .logo-theme img').css({"width":"123px"});
             $('#product .offcanvas-siderbars').css({"padding-top":"250px"});
             $('#category .offcanvas-siderbars').css({"padding-top":"250px"});
-            $('.header-inner #header-right-cart').css({"margin-top":"30px"});
             $('.header-inner .icon-desk-cart').css({"font-size":"60px"});
             $('.header-inner .header-cart').css({"top":"10px"});
             ;
