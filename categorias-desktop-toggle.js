@@ -93,7 +93,9 @@ $(document).ready(function(){
        if ($(window).width() > 1023){        
       
     
-
+        $('.barshomedesk').css({"display":"none"});
+        $('.icon-bars').css({"display":"none"});
+        $('.desktopclose').css({"display":"none"}); 
 
         $(window).scroll(function(){
           var topo = $(window).scrollTop();
@@ -124,7 +126,24 @@ $(document).ready(function(){
             $('.header-inner .header-cart').css({"top":"10px"});
             ;
           }
-      });     
-    } 
+      });
+
+     
+    } else{
+
+      $('.barshomedesk').css({"display":"none"});
+      $('.desktopclose').css({"display":"none"});
+      $('.menu-mobile .icon-bars').css({"display":"block"});
+      
+     
+     
+    }  
+
+
+     
+    
+
+
+
   });
 });
