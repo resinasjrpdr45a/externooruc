@@ -38,7 +38,7 @@ $(document).ready(function(){
     $(window).scroll(function(){
           var topo = $(window).scrollTop();
           if(topo<151){   
-           $('.header-inner #header-right-cart').css({"margin-top":"30px"}); 
+           $('.header-inner #header-right-cart').css({"margin-top":"24px"}); 
           }
 
           else{
