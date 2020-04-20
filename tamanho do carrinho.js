@@ -8,6 +8,26 @@ $(document).ready(function(){
         $('.header-cart').removeClass("header-mobile-cart");
      }
 
+
+     if ($(window).width() <= 1023){ 
+    
+
+       $('.barshomedesk').css({"display":"none"});
+    if (window.matchMedia('(max-width: 1023px)').matches){  
+
+
+   
+
+
+
+
+    }
+
+
+
+
+     } 
+
     $(window).resize(function(){
 
 
