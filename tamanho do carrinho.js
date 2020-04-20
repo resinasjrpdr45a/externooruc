@@ -11,8 +11,20 @@ $(document).ready(function(){
 
      if ($(window).width() <= 1023){ 
     
+      $(window).scroll(function(){
+          var topo = $(window).scrollTop();
+          if(topo<151){   
+            $('.barshomedesk').css({"display":"none"});
+           
+          }
 
-       $('.barshomedesk').css({"display":"none"});
+          else{
+                    
+            $('.barshomedesk').css({"display":"none"});
+            
+            ;
+          }
+      });
     if (window.matchMedia('(max-width: 1023px)').matches){  
 
 
@@ -26,7 +38,23 @@ $(document).ready(function(){
 
 
 
-     } 
+     } else{
+          $(window).scroll(function(){
+          var topo = $(window).scrollTop();
+          if(topo<151){   
+            $('.barshomedesk').css({"display":"none"});
+           
+          }
+
+          else{
+                    
+            $('.barshomedesk').css({"display":"block"});
+            
+            ;
+          }
+      });
+
+     }
 
     $(window).resize(function(){
 
