@@ -11,50 +11,13 @@ $(document).ready(function(){
 
      if ($(window).width() <= 1023){ 
     
-      $(window).scroll(function(){
-          var topo = $(window).scrollTop();
-          if(topo<151){   
-            $('.barshomedesk').css({"display":"none"});
-           
-          }
 
-          else{
-                    
-            $('.barshomedesk').css({"display":"none"});
-            
-            ;
-          }
-      });
-    if (window.matchMedia('(max-width: 1023px)').matches){  
-
-
-   
+      $('.header-right-cart').css({"top":"24px"});
 
 
 
 
-    }
-
-
-
-
-     } else{
-          $(window).scroll(function(){
-          var topo = $(window).scrollTop();
-          if(topo<151){   
-            $('.barshomedesk').css({"display":"none"});
-           
-          }
-
-          else{
-                    
-            $('.barshomedesk').css({"display":"block"});
-            
-            ;
-          }
-      });
-
-     }
+     } 
 
     $(window).resize(function(){
 
