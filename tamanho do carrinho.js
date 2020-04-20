@@ -12,7 +12,7 @@ $(document).ready(function(){
      if ($(window).width() <= 1023){ 
     
 
-      $('.header-right-cart').css({"top":"24px"});
+      $('.header-inner #header-right-cart').css({"top":"24px"});
 
 
 
