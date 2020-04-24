@@ -49,8 +49,8 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Fixa
     		else{
               
-             	$('#searchbox').css({"margin-top":"155px"});
-  				$('#wbc-mainnav').css({"margin-top":"163px"});    
+             	$('#searchbox').css({"margin-top":"162px"});
+  				$('#wbc-mainnav').css({"margin-top":"160px"});    
     		}
 			});
 		
