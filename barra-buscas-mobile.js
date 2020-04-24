@@ -118,7 +118,24 @@ $(document).ready(function(){
 		//Ajuste da Barra de Buscas na Resolução de 991px
 		if (window.matchMedia('(max-width: 991px)').matches){  
 
-			$('#wbc-mainnav').removeClass(" col-md-12 col-sm-12 hidden-sm hidden-xs");			
+			$('#wbc-mainnav').removeClass(" col-md-12 col-sm-12 hidden-sm hidden-xs");
+
+			$(window).scroll(function(){
+    		var topo = $(window).scrollTop();
+    		//Conteudos referentes a Barra Estatica
+    		if(topo<151){
+  					
+  				$('#searchbox').css({"margin-top":"127px"});
+  				$('#wbc-mainnav').css({"margin-top":"132px"});      		
+    		}
+
+    		//Conteudos referentes a Barra Fixa
+    		else{
+              
+             	$('#searchbox').css({"margin-top":"128px"});
+  				$('#wbc-mainnav').css({"margin-top":"128px"});    
+    		}
+			});					
 		}
 
 				
