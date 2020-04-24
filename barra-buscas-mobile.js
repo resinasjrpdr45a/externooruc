@@ -17,13 +17,15 @@ $(document).ready(function(){
 				$('.menu-mobile .closemobile').click(function(){
 					$('.closemobile').css({"display":"none"});
 					$('.icon-bars').css({"display":"block"});
-					$('.wbc-mainnav').css({"margin-top":"0"}); 
+					$('.wbc-mainnav').css({"margin-top":"160px"}); 
+					$('#searchbox').css({"margin-top":"155px"});
 				});
 
 				$('#main-content-overlay').click(function(){
 					$('.closemobile').css({"display":"none"});
 					$('.icon-bars').css({"display":"block"});
-					$('.wbc-mainnav').css({"margin-top":"0"}); 
+					$('.wbc-mainnav').css({"margin-top":"160px"}); 
+					$('#searchbox').css({"margin-top":"162px"});
 
 				});
 			
