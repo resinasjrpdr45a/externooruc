@@ -11,14 +11,14 @@ $(document).ready(function(){
    		$('#wbc-top-menu ul .aligned-left:nth-child(1) img').attr('src', 'https://www.jrresinas.oruc.com.br/arquivos/bi/1581049267_LinhaEspecialpng.png');
 	});
 
-	//Espelhol - Hover
+	/*//Espelhol - Hover
 	$('#wbc-top-menu ul .aligned-left:nth-child(2)').mouseover(function(){
    		$('#wbc-top-menu ul .aligned-left:nth-child(2) img').attr('src', 'https://www.jrresinas.oruc.com.br/arquivos/bi/1581049267_Espelhohvpng.png');
 	});
 	// Espelhol - Out
 	$('#wbc-top-menu ul .aligned-left:nth-child(2)').mouseout(function(){
    		$('#wbc-top-menu ul .aligned-left:nth-child(2) img').attr('src', 'https://www.jrresinas.oruc.com.br/arquivos/bi/1581049266_Espelhopng.png');
-	});
+	});*/
 
 	//Bandejas - Hover
 	$('#wbc-top-menu ul .aligned-left:nth-child(3)').mouseover(function(){
