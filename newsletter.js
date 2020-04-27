@@ -24,7 +24,9 @@ $('#assinar span').removeClass("hidden-xs hidden-sm");
 
 
 
-} else{
+}
+
+if ($(window).width() >= 992){
    
 $('.col-newsletter').addClass("col-lg-6 col-md-6 col-sm-6 col-xs-12");
 $('.newsletter .text-center').addClass("col-xs-4 col-sm-4 col-md-3 pull-left");
@@ -44,8 +46,7 @@ $('#assinar span').addClass("hidden-xs hidden-sm");
 
 $(window).resize(function(){
 
-  if ($(window).width() <= 991)
-{    
+  if ($(window).width() <= 991){    
 
 $('.col-newsletter').removeClass("col-lg-6 col-md-6 col-sm-6 col-xs-12");
 $('.newsletter .text-center').removeClass("col-xs-4 col-sm-4 col-md-3 pull-left");
@@ -64,7 +65,10 @@ $('#assinar span').removeClass("hidden-xs hidden-sm");
 
 
 
-} else{
+}  
+
+
+if ($(window).width() >= 992){
    
 $('.col-newsletter').addClass("col-lg-6 col-md-6 col-sm-6 col-xs-12");
 $('..newsletter .text-center').addClass("col-xs-4 col-sm-4 col-md-3 pull-left");
