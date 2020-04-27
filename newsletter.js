@@ -3,6 +3,8 @@ $('.icon-newsletter img').attr('src', 'https://www.jrresinas.oruc.com.br/arquivo
 
 $('.newsletter .block_content ').addClass("block1");
 $('#form_whatsapp .block_content').removeClass("block1");
+$('#form_newsletter .block_content').removeClass("block1");
+
 if (window.matchMedia('(max-width: 991px)').matches){
  
 $('.col-newsletter').removeClass("col-lg-6 col-md-6 col-sm-6 col-xs-12");
