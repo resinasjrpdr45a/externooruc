@@ -4,10 +4,9 @@ $('.icon-newsletter img').attr('src', 'https://www.jrresinas.oruc.com.br/arquivo
 $(' #form_whatsapp span').removeClass("hidden-xs hidden-sm");
 $(' #form_newsletter span').removeClass("hidden-xs hidden-sm");
 
-if ($(window).width() <= 991)
-{  
+if (window.matchMedia('(max-width: 991px)').matches){ 
 
-$('.col-newsletter').removeClass( "col-lg-6 col-md-6 col-sm-6 col-xs-12" );
+   $('.col-newsletter').removeClass( "col-lg-6 col-md-6 col-sm-6 col-xs-12" );
    $('.col-news').removeClass("col-lg-6 col-md-6 col-sm-6 col-xs-12");
    $('#form_whatsapp .block_content:nth-child(1)').removeClass("col-xs-12 col-sm-12 col-md-5");
    $('#form_whatsapp .block_content:nth-child(2)').removeClass("col-xs-10 col-sm-10 col-md-5");
@@ -43,8 +42,7 @@ $('.col-newsletter').removeClass( "col-lg-6 col-md-6 col-sm-6 col-xs-12" );
 
 $(window).resize(function(){
 
-  if ($(window).width() <= 991)
-{    
+if (window.matchMedia('(max-width: 767px)').matches){  
 $('.col-newsletter').removeClass( "col-lg-6 col-md-6 col-sm-6 col-xs-12" );
    $('.col-news').removeClass("col-lg-6 col-md-6 col-sm-6 col-xs-12");
    $('#form_whatsapp .block_content:nth-child(1)').removeClass("col-xs-12 col-sm-12 col-md-5");
