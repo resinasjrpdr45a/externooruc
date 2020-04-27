@@ -1,6 +1,5 @@
 $(document).ready(function(){
 $('.icon-newsletter img').attr('src', 'https://www.jrresinas.oruc.com.br/arquivos/bi/1582235045_emailicompng.png');
-
 $('.newsletter .block_content ').addClass("block1");
 $('#form_whatsapp .block_content').removeClass("block1");
 $('#form_newsletter .block_content').removeClass("block1");
@@ -45,8 +44,9 @@ $('#assinar span').addClass("hidden-xs hidden-sm");
 
 // Funçao Resize da Barra de Buscas e Categorias
 $(window).resize(function(){
-			
-	if (window.matchMedia('(max-width: 991px)').matches){
+$('.icon-newsletter img').attr('src', 'https://www.jrresinas.oruc.com.br/arquivos/bi/1582235045_emailicompng.png');		
+	
+if (window.matchMedia('(max-width: 991px)').matches){
  
 $('.col-newsletter').removeClass("col-lg-6 col-md-6 col-sm-6 col-xs-12");
 $('.newsletter .text-center').removeClass("col-xs-4 col-sm-4 col-md-3 pull-left");
