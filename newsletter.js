@@ -4,6 +4,7 @@ $('.newsletter .block_content ').addClass("block1");
 $('#form_whatsapp .block_content').removeClass("block1");
 $('#form_newsletter .block_content').removeClass("block1");
 $('#assinar span').removeClass("hidden-xs hidden-sm");
+$('assinar_whats span').removeClass("hidden-xs hidden-sm");
 
 if (window.matchMedia('(max-width: 991px)').matches){
 	$('.col-newsletter').removeClass("col-lg-6 col-md-6 col-sm-6 col-xs-12");
