@@ -69,15 +69,15 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Estatica
     		if(topo<151){
   					
-  				$('#searchbox').css({"margin-top":"153px"});
-  				$('#wbc-mainnav').css({"margin-top":"163px"});      		
+  				$('#searchbox').css({"margin-top":"3px"});
+  				$('#wbc-mainnav').css({"margin-top":"58px"});      		
     		}
 
     		//Conteudos referentes a Barra Fixa
     		else{
               
-             	$('#searchbox').css({"margin-top":"160px"});
-  				$('#wbc-mainnav').css({"margin-top":"160px"});    
+             	$('#searchbox').css({"margin-top":"3px"});
+  				$('#wbc-mainnav').css({"margin-top":"55px"});    
     		}
 			});
 
@@ -96,15 +96,15 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Estatica
     		if(topo<151){
   					
-  				$('#searchbox').css({"margin-top":"127px"});
-  				$('#wbc-mainnav').css({"margin-top":"132px"});      		
+  				$('#searchbox').css({"margin-top":"4px"});
+  				$('#wbc-mainnav').css({"margin-top":"25px"});      		
     		}
 
     		//Conteudos referentes a Barra Fixa
     		else{
               
-             	$('#searchbox').css({"margin-top":"128px"});
-  				$('#wbc-mainnav').css({"margin-top":"128px"});    
+             	$('#searchbox').css({"margin-top":"7px"});
+  				$('#wbc-mainnav').css({"margin-top":"27px"});    
     		}
 			});			
 		}
@@ -125,15 +125,15 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Estatica
     		if(topo<151){
   					
-  				$('#searchbox').css({"margin-top":"127px"});
-  				$('#wbc-mainnav').css({"margin-top":"132px"});      		
+  				$('#searchbox').css({"margin-top":"4px"});
+  				$('#wbc-mainnav').css({"margin-top":"25px"});      		
     		}
 
     		//Conteudos referentes a Barra Fixa
     		else{
               
-             	$('#searchbox').css({"margin-top":"128px"});
-  				$('#wbc-mainnav').css({"margin-top":"128px"});    
+             	$('#searchbox').css({"margin-top":"4px"});
+  				$('#wbc-mainnav').css({"margin-top":"22px"});    
     		}
 			});					
 		}
@@ -185,15 +185,15 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Estatica
     		if(topo<151){
   					
-  				$('#searchbox').css({"margin-top":"153px"});
-  				$('#wbc-mainnav').css({"margin-top":"163px"});      		
+  				$('#searchbox').css({"margin-top":"3px"});
+  				$('#wbc-mainnav').css({"margin-top":"58px"});      		
     		}
 
     		//Conteudos referentes a Barra Fixa
     		else{
               
-             	$('#searchbox').css({"margin-top":"160px"});
-  				$('#wbc-mainnav').css({"margin-top":"160px"});    
+             	$('#searchbox').css({"margin-top":"3px"});
+  				$('#wbc-mainnav').css({"margin-top":"55px"});    
     		}
 			});
 
@@ -211,15 +211,15 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Estatica
     		if(topo<151){
   					
-  				$('#searchbox').css({"margin-top":"127px"});
-  				$('#wbc-mainnav').css({"margin-top":"132px"});      		
+  				$('#searchbox').css({"margin-top":"4px"});
+  				$('#wbc-mainnav').css({"margin-top":"25px"});      		
     		}
 
     		//Conteudos referentes a Barra Fixa
     		else{
               
-             	$('#searchbox').css({"margin-top":"128px"});
-  				$('#wbc-mainnav').css({"margin-top":"128px"});    
+             	$('#searchbox').css({"margin-top":"7px"});
+  				$('#wbc-mainnav').css({"margin-top":"27px"});    
     		}
 			});					
 		}
@@ -240,15 +240,15 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Estatica
     		if(topo<151){
   					
-  				$('#searchbox').css({"margin-top":"127px"});
-  				$('#wbc-mainnav').css({"margin-top":"132px"});      		
+  				$('#searchbox').css({"margin-top":"4px"});
+  				$('#wbc-mainnav').css({"margin-top":"25px"});      		
     		}
 
     		//Conteudos referentes a Barra Fixa
     		else{
               
-             	$('#searchbox').css({"margin-top":"128px"});
-  				$('#wbc-mainnav').css({"margin-top":"128px"});    
+             	$('#searchbox').css({"margin-top":"4px"});
+  				$('#wbc-mainnav').css({"margin-top":"22px"});    
     		}
 			});						
 		}
