@@ -112,6 +112,7 @@ $(document).ready(function(){
             $('#wbc-mainnav').removeClass("activetog");
             $('#wbc-mainnav').css({"margin-top":"0"});
             $('#searchbox').css({"margin-top":"50px"});
+            $('#header-search').css({"margin-top":"0"});
           }
 
           else{
@@ -125,6 +126,7 @@ $(document).ready(function(){
             $('.header-inner .icon-desk-cart').css({"font-size":"60px"});
             $('.header-inner .header-cart').css({"top":"10px"});
             $('#searchbox').css({"margin-top":"50px"});
+            $('#header-search').css({"margin-top":"0"});
             ;
           }
       });
@@ -146,6 +148,7 @@ $(document).ready(function(){
             $('#wbc-mainnav').removeClass("activetog");
             $('#wbc-mainnav').css({"margin-top":"0"});
             $('#searchbox').css({"margin-top":"50px"});
+            $('#header-search').css({"margin-top":"0"});
           }
 
           else{
@@ -159,6 +162,7 @@ $(document).ready(function(){
             $('.header-inner .icon-desk-cart').css({"font-size":"60px"});
             $('.header-inner .header-cart').css({"top":"10px"});
             $('#searchbox').css({"margin-top":"50px"});
+            $('#header-search').css({"margin-top":"0"});
             ;
           }
       });
