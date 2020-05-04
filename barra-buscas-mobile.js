@@ -69,7 +69,7 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Estatica
     		if(topo<151){
   					
-  				$('#searchbox').css({"margin-top":"3px"});
+  				$('#searchbox').css({"margin-top":"153px"});
   				$('#wbc-mainnav').css({"margin-top":"58px"});      		
     		}
 
@@ -77,7 +77,7 @@ $(document).ready(function(){
     		else{
               
              	$('#searchbox').css({"margin-top":"3px"});
-  				$('#wbc-mainnav').css({"margin-top":"55px"});    
+  				$('#wbc-mainnav').css({"margin-top":"160px"});    
     		}
 			});
 
