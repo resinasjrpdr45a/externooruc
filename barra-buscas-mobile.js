@@ -42,14 +42,14 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Estatica
     		if(topo<151){
   					
-  				$('#searchbox').css({"margin-top":"155px"});
+  				$('#header-search').css({"margin-top":"0"});
   				$('#wbc-mainnav').css({"margin-top":"163px"});      		
     		}
 
     		//Conteudos referentes a Barra Fixa
     		else{
               
-             	$('#searchbox').css({"margin-top":"162px"});
+             	$('#header-search').css({"margin-top":"0"});
   				$('#wbc-mainnav').css({"margin-top":"160px"});    
     		}
 			});
@@ -158,14 +158,14 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Estatica
     		if(topo<151){
   					
-  				$('#searchbox').css({"margin-top":"155px"});
+  				$('#header-search').css({"margin-top":"0"});
   				$('#wbc-mainnav').css({"margin-top":"163px"});      		
     		}
 
     		//Conteudos referentes a Barra Fixa
     		else{
               
-             	$('#searchbox').css({"margin-top":"162px"});
+             	$('#header-search').css({"margin-top":"0"});
   				$('#wbc-mainnav').css({"margin-top":"160px"});    
     		}
 			});
