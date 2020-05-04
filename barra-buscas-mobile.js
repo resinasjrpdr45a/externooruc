@@ -132,7 +132,7 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Fixa
     		else{
               
-             	$('#header-search').css({"margin-top":"-28px"});
+             	$('#header-search').css({"margin-top":"-22px"});
   				$('#wbc-mainnav').css({"margin-top":"22px"});    
     		}
 			});					
@@ -247,7 +247,7 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Fixa
     		else{
               
-             	$('#header-search').css({"margin-top":"-28px"});
+             	$('#header-search').css({"margin-top":"-22px"});
   				$('#wbc-mainnav').css({"margin-top":"22px"});    
     		}
 			});						
