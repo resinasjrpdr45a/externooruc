@@ -185,14 +185,14 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Estatica
     		if(topo<151){
   					
-  				$('#searchbox').css({"margin-top":"153px"});
+  				$('#header-search').css({"margin-top":"3px"});
   				$('#wbc-mainnav').css({"margin-top":"58px"});      		
     		}
 
     		//Conteudos referentes a Barra Fixa
     		else{
               
-             	$('#searchbox').css({"margin-top":"163px"});
+             	$('#header-search').css({"margin-top":"3px"});
   				$('#wbc-mainnav').css({"margin-top":"60px"});    
     		}
 			});
