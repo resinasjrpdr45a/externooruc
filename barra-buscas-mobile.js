@@ -96,7 +96,7 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Estatica
     		if(topo<151){
   					
-  				$('#header-search').css({"margin-top":"-22px"});
+  				$('#header-search').css({"margin-top":"-23px"});
   				$('#wbc-mainnav').css({"margin-top":"25px"});      		
     		}
 
@@ -125,14 +125,14 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Estatica
     		if(topo<151){
   					
-  				$('#searchbox').css({"margin-top":"4px"});
+  				$('#header-search').css({"margin-top":"128px"});
   				$('#wbc-mainnav').css({"margin-top":"25px"});      		
     		}
 
     		//Conteudos referentes a Barra Fixa
     		else{
               
-             	$('#searchbox').css({"margin-top":"4px"});
+             	$('#header-search').css({"margin-top":"129px"});
   				$('#wbc-mainnav').css({"margin-top":"22px"});    
     		}
 			});					
@@ -211,7 +211,7 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Estatica
     		if(topo<151){
   					
-  				$('#header-search').css({"margin-top":"-22px"});
+  				$('#header-search').css({"margin-top":"-23px"});
   				$('#wbc-mainnav').css({"margin-top":"25px"});      		
     		}
 
@@ -240,14 +240,14 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Estatica
     		if(topo<151){
   					
-  				$('#searchbox').css({"margin-top":"4px"});
+  				$('#header-search').css({"margin-top":"128px"});
   				$('#wbc-mainnav').css({"margin-top":"25px"});      		
     		}
 
     		//Conteudos referentes a Barra Fixa
     		else{
               
-             	$('#searchbox').css({"margin-top":"4px"});
+             	$('#header-search').css({"margin-top":"129px"});
   				$('#wbc-mainnav').css({"margin-top":"22px"});    
     		}
 			});						
