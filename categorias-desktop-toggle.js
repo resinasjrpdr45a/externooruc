@@ -52,6 +52,7 @@ $(document).ready(function(){
             $('.barshomedesk').addClass("icon-bars");
             $('#wbc-mainnav').removeClass("activetog");
             $('.wbc-mainnav').css({"margin-top":"0"});
+            $('#headerCheck').removeClass("bar");
           }
 
           else{
@@ -64,6 +65,7 @@ $(document).ready(function(){
             $('#order .offcanvas-siderbars').css({"padding-top":"250px"});
             $('.header-inner .icon-desk-cart').css({"font-size":"60px"});
             $('.header-inner .header-cart').css({"top":"10px"});
+            $('#headerCheck').addClass("bar");
             ;
           }
       });
@@ -118,6 +120,7 @@ $(document).ready(function(){
             $('#wbc-mainnav').css({"margin-top":"0"});
             $('#searchbox').css({"margin-top":"50px"});
             $('#header-search').css({"margin-top":"0"});
+            $('#headerCheck').removeClass("bar");
           }
 
           else{
@@ -133,6 +136,7 @@ $(document).ready(function(){
             $('.header-inner .header-cart').css({"top":"10px"});
             $('#searchbox').css({"margin-top":"50px"});
             $('#header-search').css({"margin-top":"0"});
+            $('#headerCheck').addClass("bar");
             ;
           }
       });
