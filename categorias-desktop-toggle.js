@@ -2,6 +2,7 @@ $(document).ready(function(){
         
     $('.header-inner').append('<i class="icon-bars barshomedesk"></i>');
     $('.header-inner').append('<i class="fas fa-times desktopclose"></i>');
+    $('#headerCheck .barshomedesk').css({"display":"none"});
      
     if (window.matchMedia('(max-width: 1023px)').matches){ 
         $('.icon-shopping-cart').removeClass("icon-desk-cart");
@@ -76,6 +77,7 @@ $(document).ready(function(){
       $('.barshomedesk').css({"display":"none"});
       $('.desktopclose').css({"display":"none"});
       $('.menu-mobile .icon-bars').css({"display":"block"});
+
       
      
      
@@ -121,6 +123,7 @@ $(document).ready(function(){
             $('#searchbox').css({"margin-top":"50px"});
             $('#header-search').css({"margin-top":"0"});
             $('#headerCheck').removeClass("bar");
+
           }
 
           else{
