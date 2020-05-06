@@ -47,6 +47,7 @@ $(document).ready(function(){
             $('.desktopclose').css({"display":"none"});
             $('#product .offcanvas-siderbars').css({"padding-top":"0"});
             $('#category .offcanvas-siderbars').css({"padding-top":"0"});
+            $('#order .offcanvas-siderbars').css({"padding-top":"0"});
             $('.header-inner .logo-theme img').css({"width":"170px"});
             $('.barshomedesk').addClass("icon-bars");
             $('#wbc-mainnav').removeClass("activetog");
@@ -60,6 +61,7 @@ $(document).ready(function(){
             $('.header-inner .logo-theme img').css({"width":"123px"});
             $('#product .offcanvas-siderbars').css({"padding-top":"250px"});
             $('#category .offcanvas-siderbars').css({"padding-top":"250px"});
+            $('#order .offcanvas-siderbars').css({"padding-top":"250px"});
             $('.header-inner .icon-desk-cart').css({"font-size":"60px"});
             $('.header-inner .header-cart').css({"top":"10px"});
             ;
@@ -109,6 +111,7 @@ $(document).ready(function(){
             $('.desktopclose').css({"display":"none"});
             $('#product .offcanvas-siderbars').css({"padding-top":"0"});
             $('#category .offcanvas-siderbars').css({"padding-top":"0"});
+            $('#order .offcanvas-siderbars').css({"padding-top":"0"});
             $('.header-inner .logo-theme img').css({"width":"170px"});
             $('.barshomedesk').addClass("icon-bars");
             $('#wbc-mainnav').removeClass("activetog");
@@ -124,6 +127,7 @@ $(document).ready(function(){
             $('.header-inner .logo-theme img').css({"width":"123px"});
             $('#product .offcanvas-siderbars').css({"padding-top":"250px"});
             $('#category .offcanvas-siderbars').css({"padding-top":"250px"});
+            $('#order .offcanvas-siderbars').css({"padding-top":"250px"});
             $('.header-inner #header-right-cart').css({"margin-top":"30px"});
             $('.header-inner .icon-desk-cart').css({"font-size":"60px"});
             $('.header-inner .header-cart').css({"top":"10px"});
