@@ -65,7 +65,7 @@ $(document).ready(function(){
             $('#product .offcanvas-siderbars').css({"padding-top":"250px"});
             $('#category .offcanvas-siderbars').css({"padding-top":"250px"});
             $('#order .offcanvas-siderbars').css({"padding-top":"250px"});
-            $('.checkout .offcanvas-siderbars').css({"padding-top":"400px"});
+            $('.checkout .offcanvas-siderbars').css({"padding-top":"350px"});
             $('.header-inner .icon-desk-cart').css({"font-size":"60px"});
             $('.header-inner .header-cart').css({"top":"10px"});
             $('#headerCheck').addClass("bar");
@@ -137,7 +137,7 @@ $(document).ready(function(){
             $('#product .offcanvas-siderbars').css({"padding-top":"250px"});
             $('#category .offcanvas-siderbars').css({"padding-top":"250px"});
             $('#order .offcanvas-siderbars').css({"padding-top":"250px"});
-            $('.checkout .offcanvas-siderbars').css({"padding-top":"400px"});
+            $('.checkout .offcanvas-siderbars').css({"padding-top":"350px"});
             $('.header-inner #header-right-cart').css({"margin-top":"30px"});
             $('.header-inner .icon-desk-cart').css({"font-size":"60px"});
             $('.header-inner .header-cart').css({"top":"10px"});
