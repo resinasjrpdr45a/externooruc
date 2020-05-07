@@ -1,5 +1,5 @@
 $(document).ready(function(){
- 	$('.checkout .table-summary a span').removeClass("hidden-xs");
+ 	$('#order  a span').removeClass("hidden-xs");
 
 		
 
