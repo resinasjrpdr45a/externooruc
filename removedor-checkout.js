@@ -1,6 +1,6 @@
 $(document).ready(function(){
  	if (window.matchMedia('(max-width: 767px)').matches){       		
-			$('.checkout .list-unstyled li span').removeClass("hidden-xs");
+			$('.checkout .table-summary a span').removeClass("hidden-xs");
 			
 		}  
 
@@ -8,8 +8,8 @@ $(document).ready(function(){
 
 
 	$(window).resize(function(){
-		if (window.matchMedia('(max-width: 991px)').matches){        		
-			$('.checkout .list-unstyled  li span').removeClass("hidden-xs");
+		if (window.matchMedia('(max-width: 767px)').matches){        		
+			$('.checkout .table-summary a span').removeClass("hidden-xs");
 			
 		}  
 
