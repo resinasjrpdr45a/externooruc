@@ -4,12 +4,7 @@ $(document).ready(function(){
 		
 
 
-	$(window).resize(function(){
-		$('.checkout .table-summary a span').removeClass("hidden-xs");
-
-		
-		
-	});		       
+	     
     
 
 
