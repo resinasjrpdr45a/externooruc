@@ -68,4 +68,14 @@ $(document).ready(function(){
 	$('#wbc-top-menu ul .aligned-left:nth-child(7)').mouseout(function(){
    		$('#wbc-top-menu ul .aligned-left:nth-child(7) img').attr('src', 'https://www.jrresinas.oruc.com.br/arquivos/bi/1581049266_Vasopng.png');
 	});	
+
+	//Laços - Hover
+	$('#wbc-top-menu ul .aligned-left:nth-child(8)').mouseover(function(){
+   		$('#wbc-top-menu ul .aligned-left:nth-child(8) img').attr('src', 'https://www.jrresinas.com.br/arquivos/bi/1589895742_lacohoverpng.png');
+	});
+	
+	// Laços - Out
+	$('#wbc-top-menu ul .aligned-left:nth-child(8)').mouseout(function(){
+   		$('#wbc-top-menu ul .aligned-left:nth-child(8) img').attr('src', 'https://www.jrresinas.com.br/arquivos/bi/1589895742_lacopng.png');
+	});
 });
