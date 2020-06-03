@@ -1,6 +1,7 @@
 $( document ).ready(function() {
     
-	$('#left_column .block .block_content ').css({"display":"none"});
+	$('#my-account #left_column .block .block_content').css({"display":"none"});
+	$('#left_column .block .block_content').css({"display":"none"});
 	
 	$('#left_column #categories_block_left .title_block').click(function(){
      	$('#left_column #categories_block_left .title_block').toggleClass('clicado');
