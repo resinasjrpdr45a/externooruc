@@ -40,7 +40,7 @@ $(document).ready(function(){
 
         $(window).scroll(function(){
           var topo = $(window).scrollTop();
-          if(topo<230){   
+          if(topo<256){   
             $('.header-desk-cart').css({"top":"0"});
             $('.barshomedesk').css({"display":"none"});
             $('.header-inner .icon-desk-cart').css({"font-size":"73px"});
@@ -56,6 +56,8 @@ $(document).ready(function(){
             $('.wbc-mainnav').css({"margin-top":"0"});
             $('#headerCheck').removeClass("bar");
             $('header').removeClass("bar");
+            $('#header').removeClass("bar");
+
           }
 
           else{
@@ -71,6 +73,7 @@ $(document).ready(function(){
             $('.header-inner .header-cart').css({"top":"10px"});
             $('#headerCheck').addClass("bar");
             $('header').addClass("bar");
+            $('#header').addClass("bar");
             ;
           }
       });
@@ -110,7 +113,7 @@ $(document).ready(function(){
 
         $(window).scroll(function(){
           var topo = $(window).scrollTop();
-          if(topo<230){   
+          if(topo<256){   
             $('.header-desk-cart').css({"top":"0"});
             $('.barshomedesk').css({"display":"none"});
             $('.header-inner #header-right-cart').css({"margin-top":"30px"});
@@ -129,6 +132,7 @@ $(document).ready(function(){
             $('#header-search').css({"margin-top":"0"});
             $('#headerCheck').removeClass("bar");
             $('header').removeClass("bar");
+            $('#header').removeClass("bar");
 
           }
 
@@ -148,13 +152,14 @@ $(document).ready(function(){
             $('#header-search').css({"margin-top":"0"});
             $('#headerCheck').addClass("bar");
             $('header').addClass("bar");
+            $('#header').addClass("bar");
           }
       });
 
       $(window).resize(function(){
       $(window).scroll(function(){
           var topo = $(window).scrollTop();
-          if(topo<230){   
+          if(topo<256){   
             $('.header-desk-cart').css({"top":"0"});
             $('.barshomedesk').css({"display":"none"});
             $('.header-inner #header-right-cart').css({"margin-top":"30px"});
@@ -170,6 +175,7 @@ $(document).ready(function(){
             $('#searchbox').css({"margin-top":"50px"});
             $('#header-search').css({"margin-top":"0"});
             $('header').removeClass("bar");
+            $('#header').removeClass("bar");
           }
 
           else{
@@ -185,6 +191,7 @@ $(document).ready(function(){
             $('#searchbox').css({"margin-top":"50px"});
             $('#header-search').css({"margin-top":"0"});
             $('header').addClass("bar");
+            $('#header').addClass("bar");
             ;
           }
       });
