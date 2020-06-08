@@ -35,7 +35,8 @@ $(document).ready(function(){
 
      $('.barshomedesk').css({"display":"none"});
      $('.icon-bars').css({"display":"none"});
-     $('.desktopclose').css({"display":"none"}); 
+     $('.desktopclose').css({"display":"none"});
+
 
 
         $(window).scroll(function(){
@@ -65,7 +66,7 @@ $(document).ready(function(){
             $('.barshomedesk').css({"display":"block"});
             $('.header-desk-cart').css({"top":"10px"});
             $('.header-inner .logo-theme img').css({"width":"123px"});
-            $('#product .offcanvas-siderbars').css({"padding-top":"250px"});
+            $('#product .offcanvas-siderbars').css({"padding-top":"340px"});
             $('#category .offcanvas-siderbars').css({"padding-top":"250px"});
             $('#order .offcanvas-siderbars').css({"padding-top":"250px"});
             $('.checkout .offcanvas-siderbars').css({"padding-top":"350px"});
@@ -84,6 +85,7 @@ $(document).ready(function(){
       $('.barshomedesk').css({"display":"none"});
       $('.desktopclose').css({"display":"none"});
       $('.menu-mobile .icon-bars').css({"display":"block"});
+      
 
       
      
@@ -141,7 +143,7 @@ $(document).ready(function(){
             $('.barshomedesk').css({"display":"block"});
             $('.header-desk-cart').css({"top":"10px"});
             $('.header-inner .logo-theme img').css({"width":"123px"});
-            $('#product .offcanvas-siderbars').css({"padding-top":"250px"});
+            $('#product .offcanvas-siderbars').css({"padding-top":"340px"});
             $('#category .offcanvas-siderbars').css({"padding-top":"250px"});
             $('#order .offcanvas-siderbars').css({"padding-top":"250px"});
             $('.checkout .offcanvas-siderbars').css({"padding-top":"350px"});
@@ -183,7 +185,7 @@ $(document).ready(function(){
             $('.barshomedesk').css({"display":"block"});
             $('.header-desk-cart').css({"top":"10px"});
             $('.header-inner .logo-theme img').css({"width":"123px"});
-            $('#product .offcanvas-siderbars').css({"padding-top":"250px"});
+            $('#product .offcanvas-siderbars').css({"padding-top":"340px"});
             $('#category .offcanvas-siderbars').css({"padding-top":"250px"});
             $('.header-inner #header-right-cart').css({"margin-top":"30px"});
             $('.header-inner .icon-desk-cart').css({"font-size":"60px"});
