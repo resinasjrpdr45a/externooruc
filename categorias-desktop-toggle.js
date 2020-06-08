@@ -151,7 +151,7 @@ $(document).ready(function(){
       $(window).resize(function(){
       $(window).scroll(function(){
           var topo = $(window).scrollTop();
-          if(topo<151){   
+          if(topo<180){   
             $('.header-desk-cart').css({"top":"0"});
             $('.barshomedesk').css({"display":"none"});
             $('.header-inner #header-right-cart').css({"margin-top":"30px"});
