@@ -47,8 +47,8 @@ $(document).ready(function(){
             $('.header-inner .icon-desk-cart').css({"font-size":"73px"});
             $('.header-inner .header-cart ').css({"top":"0"});
             $('.desktopclose').css({"display":"none"});
-             $("#product  .offcanvas-siderbars").removeClass("canvassusp");
-            $('#product .offcanvas-siderbars').css({"padding-top":"0"});
+            $("#product  .offcanvas-siderbars").removeClass("canvassusp");
+            /*$('#product .offcanvas-siderbars').css({"padding-top":"0"});*/
             $('#category .offcanvas-siderbars').css({"padding-top":"0"});
             $('#order .offcanvas-siderbars').css({"padding-top":"0"});
             $('.checkout .offcanvas-siderbars').css({"padding-top":"0"});
@@ -69,7 +69,7 @@ $(document).ready(function(){
             $('.header-desk-cart').css({"top":"10px"});
             $('header .header-inner .logo-theme img').css({"width":"123px"});
             $('#headerCheck .header-inner .logo-theme img').css({"width":"123px"});
-            $('#product .offcanvas-siderbars').css({"padding-top":"440px"});
+            /*$('#product .offcanvas-siderbars').css({"padding-top":"440px"});*/
             $("#product  .offcanvas-siderbars").addClass("canvassusp");
             $('#category .offcanvas-siderbars').css({"padding-top":"440px"});
             $('#order .offcanvas-siderbars').css({"padding-top":"450px"});
@@ -128,7 +128,7 @@ $(document).ready(function(){
             $('.header-inner .header-cart ').css({"top":"0"});
             $('.desktopclose').css({"display":"none"});
             $("#product  .offcanvas-siderbars").removeClass("canvassusp");
-            $('#product .offcanvas-siderbars').css({"padding-top":"0"});
+            /*$('#product .offcanvas-siderbars').css({"padding-top":"0"});*/
             $('#category .offcanvas-siderbars').css({"padding-top":"0"});
             $('#order .offcanvas-siderbars').css({"padding-top":"0"});
             $('.checkout .offcanvas-siderbars').css({"padding-top":"0"});
@@ -152,7 +152,7 @@ $(document).ready(function(){
             $('header .header-inner .logo-theme img').css({"width":"123px"});
             $('#headerCheck .header-inner .logo-theme img').css({"width":"123px"});
             $("#product  .offcanvas-siderbars").addClass("canvassusp");
-            $('#product .offcanvas-siderbars').css({"padding-top":"440px"});
+            /*$('#product .offcanvas-siderbars').css({"padding-top":"440px"});*/
             $('#category .offcanvas-siderbars').css({"padding-top":"440px"});
             $('#order .offcanvas-siderbars').css({"padding-top":"450px"});
             $('.checkout .offcanvas-siderbars').css({"padding-top":"350px"});
@@ -178,7 +178,7 @@ $(document).ready(function(){
             $('.header-inner .header-cart ').css({"top":"0"});
             $('.desktopclose').css({"display":"none"});
             $("#product  .offcanvas-siderbars").removeClass("canvassusp");
-            $('#product .offcanvas-siderbars').css({"padding-top":"0"});
+            /*$('#product .offcanvas-siderbars').css({"padding-top":"0"});*/
             $('#category .offcanvas-siderbars').css({"padding-top":"0"});
             $('#order .offcanvas-siderbars').css({"padding-top":"0"});
             $('header .header-inner .logo-theme img').css({"width":"170px"});
@@ -199,7 +199,7 @@ $(document).ready(function(){
             $('.header-inner .logo-theme img').css({"width":"123px"});
             $('#headerCheck .header-inner .logo-theme img').css({"width":"123px"});
              $("#product  .offcanvas-siderbars").addClass("canvassusp");
-            $('#product .offcanvas-siderbars').css({"padding-top":"440px"});
+            /*$('#product .offcanvas-siderbars').css({"padding-top":"440px"});*/
             $('#category .offcanvas-siderbars').css({"padding-top":"440px"});
             $('#order .offcanvas-siderbars').css({"padding-top":"450px"});
             $('.header-inner #header-right-cart').css({"margin-top":"30px"});
