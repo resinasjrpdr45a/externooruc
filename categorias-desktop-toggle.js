@@ -49,6 +49,8 @@ $(document).ready(function(){
             $("#category  .offcanvas-siderbars").removeClass("canvassusp-cat");
             $("#order  .offcanvas-siderbars").removeClass("canvassusp-ordcheck");
             $(".checkout  .offcanvas-siderbars").removeClass("canvassusp-check");
+            $("#index  .offcanvas-siderbars").removeClass("canvassusp-homeindex");
+            $("#my-account  .offcanvas-siderbars").removeClass("canvassusp-acount");
             $('header .header-inner .logo-theme img').css({"width":"170px"});
             $('#headerCheck .header-inner .logo-theme img').css({"width":"133px"});
             $('.barshomedesk').addClass("icon-bars");
@@ -67,9 +69,8 @@ $(document).ready(function(){
             $("#category  .offcanvas-siderbars").addClass("canvassusp-cat");
             $("#order  .offcanvas-siderbars").addClass("canvassusp-ordcheck");
             $(".checkout  .offcanvas-siderbars").addClass("canvassusp-check");
-            /*$('#category .offcanvas-siderbars').css({"padding-top":"440px"});
-            $('#order .offcanvas-siderbars').css({"padding-top":"450px"});
-            $('.checkout .offcanvas-siderbars').css({"padding-top":"350px"});*/
+            $("#index  .offcanvas-siderbars").addClass("canvassusp-homeindex");
+            $("#my-account  .offcanvas-siderbars").addClass("canvassusp-acount");
             $('.header-inner .icon-desk-cart').css({"font-size":"60px"});
             $('.header-inner .header-cart').css({"top":"10px"});
             $('#headerCheck').addClass("bar");
@@ -85,12 +86,12 @@ $(document).ready(function(){
       $('.barshomedesk').css({"display":"none"});
       $('.desktopclose').css({"display":"none"});
       $('.menu-mobile .icon-bars').css({"display":"block"});
-       $("#product  .offcanvas-siderbars").removeClass("canvassusp");
-      
-
-      
-     
-     
+      $("#product  .offcanvas-siderbars").removeClass("canvassusp");
+      $("#category  .offcanvas-siderbars").removeClass("canvassusp-cat");
+      $("#order  .offcanvas-siderbars").removeClass("canvassusp-ordcheck");
+      $(".checkout  .offcanvas-siderbars").removeClass("canvassusp-check");
+      $("#index  .offcanvas-siderbars").removeClass("canvassusp-homeindex");
+      $("#my-account  .offcanvas-siderbars").removeClass("canvassusp-acount");     
     }  
 
     $(window).resize(function(){
@@ -125,6 +126,8 @@ $(document).ready(function(){
             $("#category  .offcanvas-siderbars").removeClass("canvassusp-cat");
             $("#order  .offcanvas-siderbars").removeClass("canvassusp-ordcheck");
             $(".checkout  .offcanvas-siderbars").removeClass("canvassusp-check");
+            $("#index  .offcanvas-siderbars").removeClass("canvassusp-homeindex");
+            $("#my-account  .offcanvas-siderbars").removeClass("canvassusp-acount");
             $('header .header-inner .logo-theme img').css({"width":"170px"});
             $('#headerCheck .header-inner .logo-theme img').css({"width":"133px"});
             $('.barshomedesk').addClass("icon-bars");
@@ -145,9 +148,8 @@ $(document).ready(function(){
             $("#category  .offcanvas-siderbars").addClass("canvassusp-cat");
             $("#order  .offcanvas-siderbars").addClass("canvassusp-ordcheck");
             $(".checkout  .offcanvas-siderbars").addClass("canvassusp-check");
-            /*$('#category .offcanvas-siderbars').css({"padding-top":"440px"});
-            $('#order .offcanvas-siderbars').css({"padding-top":"450px"});
-            $('.checkout .offcanvas-siderbars').css({"padding-top":"350px"});*/
+            $("#index  .offcanvas-siderbars").addClass("canvassusp-homeindex");
+            $("#my-account  .offcanvas-siderbars").addClass("canvassusp-acount");
             $('.header-inner #header-right-cart').css({"margin-top":"30px"});
             $('.header-inner .icon-desk-cart').css({"font-size":"60px"});
             $('.header-inner .header-cart').css({"top":"10px"});
@@ -172,6 +174,8 @@ $(document).ready(function(){
             $("#category  .offcanvas-siderbars").removeClass("canvassusp-cat");
             $("#order  .offcanvas-siderbars").removeClass("canvassusp-ordcheck");
             $(".checkout  .offcanvas-siderbars").removeClass("canvassusp-check");
+            $("#index  .offcanvas-siderbars").removeClass("canvassusp-homeindex");
+            $("#my-account  .offcanvas-siderbars").removeClass("canvassusp-acount");
             $('header .header-inner .logo-theme img').css({"width":"170px"});
             $('#headerCheck .header-inner .logo-theme img').css({"width":"133px"});
             $('.barshomedesk').addClass("icon-bars");
@@ -190,8 +194,8 @@ $(document).ready(function(){
             $("#category  .offcanvas-siderbars").addClass("canvassusp-cat");
             $("#order  .offcanvas-siderbars").addClass("canvassusp-ordcheck");
             $(".checkout  .offcanvas-siderbars").addClass("canvassusp-check");
-            /*$('#category .offcanvas-siderbars').css({"padding-top":"440px"});
-            $('#order .offcanvas-siderbars').css({"padding-top":"450px"});*/
+            $("#index  .offcanvas-siderbars").addClass("canvassusp-homeindex");
+            $("#my-account  .offcanvas-siderbars").addClass("canvassusp-acount");
             $('.header-inner #header-right-cart').css({"margin-top":"30px"});
             $('.header-inner .icon-desk-cart').css({"font-size":"60px"});
             $('.header-inner .header-cart').css({"top":"10px"});
@@ -213,16 +217,11 @@ $(document).ready(function(){
       $('.desktopclose').css({"display":"none"});
       $('.menu-mobile .icon-bars').css({"display":"block"});
       $("#product  .offcanvas-siderbars").removeClass("canvassusp");
-      
-     
-     
+      $("#category  .offcanvas-siderbars").removeClass("canvassusp-cat");
+      $("#order  .offcanvas-siderbars").removeClass("canvassusp-ordcheck");
+      $(".checkout  .offcanvas-siderbars").removeClass("canvassusp-check");
+      $("#index  .offcanvas-siderbars").removeClass("canvassusp-homeindex");
+      $("#my-account  .offcanvas-siderbars").removeClass("canvassusp-acount");    
     }  
-
-
-     
-    
-
-
-
   });
 });
