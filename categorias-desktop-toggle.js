@@ -165,7 +165,6 @@ $(document).ready(function(){
       $(window).scroll(function(){
           var topo = $(window).scrollTop();
           if(topo<151){   
-            $('.barshomedesk').css({"display":"none"});
             $('.header-inner #header-right-cart').css({"margin-top":"30px"});
             $('.header-inner .icon-desk-cart').css({"font-size":"73px"});
             $('.header-inner .header-cart ').css({"top":"0"});
