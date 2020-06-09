@@ -49,7 +49,7 @@ $(document).ready(function(){
             $("#category  .offcanvas-siderbars").removeClass("canvassusp-cat");
             $("#order  .offcanvas-siderbars").removeClass("canvassusp-ordcheck");
             $(".checkout  .offcanvas-siderbars").removeClass("canvassusp-check");
-            $("#index  .offcanvas-siderbars").removeClass("canvassusp-homeindex");
+            $("#index  .pagebuilder-content").removeClass("canvassusp-homeindex");
             $("#my-account  .offcanvas-siderbars").removeClass("canvassusp-acount");
             $('header .header-inner .logo-theme img').css({"width":"170px"});
             $('#headerCheck .header-inner .logo-theme img').css({"width":"133px"});
@@ -69,7 +69,7 @@ $(document).ready(function(){
             $("#category  .offcanvas-siderbars").addClass("canvassusp-cat");
             $("#order  .offcanvas-siderbars").addClass("canvassusp-ordcheck");
             $(".checkout  .offcanvas-siderbars").addClass("canvassusp-check");
-            $("#index  .offcanvas-siderbars").addClass("canvassusp-homeindex");
+            $("#index  .pagebuilder-content").addClass("canvassusp-homeindex");
             $("#my-account  .offcanvas-siderbars").addClass("canvassusp-acount");
             $('.header-inner .icon-desk-cart').css({"font-size":"60px"});
             $('.header-inner .header-cart').css({"top":"10px"});
@@ -90,7 +90,7 @@ $(document).ready(function(){
       $("#category  .offcanvas-siderbars").removeClass("canvassusp-cat");
       $("#order  .offcanvas-siderbars").removeClass("canvassusp-ordcheck");
       $(".checkout  .offcanvas-siderbars").removeClass("canvassusp-check");
-      $("#index  .offcanvas-siderbars").removeClass("canvassusp-homeindex");
+      $("#index  .pagebuilder-content").removeClass("canvassusp-homeindex");
       $("#my-account  .offcanvas-siderbars").removeClass("canvassusp-acount");     
     }  
 
@@ -126,7 +126,7 @@ $(document).ready(function(){
             $("#category  .offcanvas-siderbars").removeClass("canvassusp-cat");
             $("#order  .offcanvas-siderbars").removeClass("canvassusp-ordcheck");
             $(".checkout  .offcanvas-siderbars").removeClass("canvassusp-check");
-            $("#index  .offcanvas-siderbars").removeClass("canvassusp-homeindex");
+            $("#index  .pagebuilder-content").removeClass("canvassusp-homeindex");
             $("#my-account  .offcanvas-siderbars").removeClass("canvassusp-acount");
             $('header .header-inner .logo-theme img').css({"width":"170px"});
             $('#headerCheck .header-inner .logo-theme img').css({"width":"133px"});
@@ -148,7 +148,7 @@ $(document).ready(function(){
             $("#category  .offcanvas-siderbars").addClass("canvassusp-cat");
             $("#order  .offcanvas-siderbars").addClass("canvassusp-ordcheck");
             $(".checkout  .offcanvas-siderbars").addClass("canvassusp-check");
-            $("#index  .offcanvas-siderbars").addClass("canvassusp-homeindex");
+            $("#index  .pagebuilder-content").addClass("canvassusp-homeindex");
             $("#my-account  .offcanvas-siderbars").addClass("canvassusp-acount");
             $('.header-inner #header-right-cart').css({"margin-top":"30px"});
             $('.header-inner .icon-desk-cart').css({"font-size":"60px"});
@@ -174,7 +174,7 @@ $(document).ready(function(){
             $("#category  .offcanvas-siderbars").removeClass("canvassusp-cat");
             $("#order  .offcanvas-siderbars").removeClass("canvassusp-ordcheck");
             $(".checkout  .offcanvas-siderbars").removeClass("canvassusp-check");
-            $("#index  .offcanvas-siderbars").removeClass("canvassusp-homeindex");
+            $("#index  .pagebuilder-content").removeClass("canvassusp-homeindex");
             $("#my-account  .offcanvas-siderbars").removeClass("canvassusp-acount");
             $('header .header-inner .logo-theme img').css({"width":"170px"});
             $('#headerCheck .header-inner .logo-theme img').css({"width":"133px"});
@@ -194,7 +194,7 @@ $(document).ready(function(){
             $("#category  .offcanvas-siderbars").addClass("canvassusp-cat");
             $("#order  .offcanvas-siderbars").addClass("canvassusp-ordcheck");
             $(".checkout  .offcanvas-siderbars").addClass("canvassusp-check");
-            $("#index  .offcanvas-siderbars").addClass("canvassusp-homeindex");
+            $("#index  .pagebuilder-content").addClass("canvassusp-homeindex");
             $("#my-account  .offcanvas-siderbars").addClass("canvassusp-acount");
             $('.header-inner #header-right-cart').css({"margin-top":"30px"});
             $('.header-inner .icon-desk-cart').css({"font-size":"60px"});
@@ -220,7 +220,7 @@ $(document).ready(function(){
       $("#category  .offcanvas-siderbars").removeClass("canvassusp-cat");
       $("#order  .offcanvas-siderbars").removeClass("canvassusp-ordcheck");
       $(".checkout  .offcanvas-siderbars").removeClass("canvassusp-check");
-      $("#index  .offcanvas-siderbars").removeClass("canvassusp-homeindex");
+      $("#index  .pagebuilder-content").removeClass("canvassusp-homeindex");
       $("#my-account  .offcanvas-siderbars").removeClass("canvassusp-acount");    
     }  
   });
