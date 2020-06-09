@@ -41,7 +41,7 @@ $(document).ready(function(){
 
         $(window).scroll(function(){
           var topo = $(window).scrollTop();
-          if(topo<390){   
+          if(topo<151){   
             $('.header-desk-cart').css({"top":"0"});
             $('.barshomedesk').css({"display":"none"});
             $('.header-inner .icon-desk-cart').css({"font-size":"73px"});
@@ -120,7 +120,7 @@ $(document).ready(function(){
 
         $(window).scroll(function(){
           var topo = $(window).scrollTop();
-          if(topo<390){   
+          if(topo<151){   
             $('.header-desk-cart').css({"top":"0"});
             $('.barshomedesk').css({"display":"none"});
             $('.header-inner #header-right-cart').css({"margin-top":"30px"});
@@ -170,7 +170,7 @@ $(document).ready(function(){
       $(window).resize(function(){
       $(window).scroll(function(){
           var topo = $(window).scrollTop();
-          if(topo<390){   
+          if(topo<151){   
             $('.header-desk-cart').css({"top":"0"});
             $('.barshomedesk').css({"display":"none"});
             $('.header-inner #header-right-cart').css({"margin-top":"30px"});
