@@ -43,14 +43,16 @@ $(document).ready(function(){
     		if(topo<151){
   					
   				$('#header-search').css({"margin-top":"0"});
-  				$('#wbc-mainnav').css({"margin-top":"163px"});      		
+  				$('#wbc-mainnav').css({"margin-top":"163px"});
+  				$('#header-right-cart').css({"left":"0"});      		
     		}
 
     		//Conteudos referentes a Barra Fixa
     		else{
               
              	$('#header-search').css({"margin-top":"-13px"});
-  				$('#wbc-mainnav').css({"margin-top":"140px"});    
+  				$('#wbc-mainnav').css({"margin-top":"140px"}); 
+  				$('#header-right-cart').css({"left":"244px"});    
     		}
 			});
 		
