@@ -155,7 +155,7 @@ $(document).ready(function(){
               
              	$('#header-search').css({"margin-top":"-10px"});
   				$('#wbc-mainnav').css({"margin-top":"42px"});
-  				$('#header-right-cart').css({"left":"360px"});    
+  				$('#header-right-cart').css({"left":"603px"});    
     		}
 			});					
 		}
@@ -289,7 +289,7 @@ $(document).ready(function(){
               
              	$('#header-search').css({"margin-top":"-10px"});
   				$('#wbc-mainnav').css({"margin-top":"42px"});
-  				$('#header-right-cart').css({"left":"360px"});      
+  				$('#header-right-cart').css({"left":"603px"});      
     		}
 			});						
 		}
