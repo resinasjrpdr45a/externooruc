@@ -145,14 +145,17 @@ $(document).ready(function(){
     		if(topo<151){
   					
   				$('#header-search').css({"margin-top":"-25px"});
-  				$('#wbc-mainnav').css({"margin-top":"32px"});      		
+  				$('#wbc-mainnav').css({"margin-top":"32px"});
+  				$('#header-right-cart').css({"left":"604px"}); 
+
     		}
 
     		//Conteudos referentes a Barra Fixa
     		else{
               
              	$('#header-search').css({"margin-top":"-10px"});
-  				$('#wbc-mainnav').css({"margin-top":"42px"});    
+  				$('#wbc-mainnav').css({"margin-top":"42px"});
+  				$('#header-right-cart').css({"left":"360px"});    
     		}
 			});					
 		}
@@ -277,14 +280,16 @@ $(document).ready(function(){
     		if(topo<151){
   					
   				$('#header-search').css({"margin-top":"-25px"});
-  				$('#wbc-mainnav').css({"margin-top":"32px"});     		
+  				$('#wbc-mainnav').css({"margin-top":"32px"});
+  				$('#header-right-cart').css({"left":"604px"});      		
     		}
 
     		//Conteudos referentes a Barra Fixa
     		else{
               
              	$('#header-search').css({"margin-top":"-10px"});
-  				$('#wbc-mainnav').css({"margin-top":"42px"});     
+  				$('#wbc-mainnav').css({"margin-top":"42px"});
+  				$('#header-right-cart').css({"left":"360px"});      
     		}
 			});						
 		}
