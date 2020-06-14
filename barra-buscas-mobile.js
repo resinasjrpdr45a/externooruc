@@ -76,8 +76,8 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Fixa
     		else{
               
-             	$('#header-search').css({"margin-top":"10px"});
-  				$('#wbc-mainnav').css({"margin-top":"60px"});    
+             	$('#header-search').css({"margin-top":"-11px"});
+  				$('#wbc-mainnav').css({"margin-top":"36px"});     
     		}
 			});
 
@@ -192,8 +192,8 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Fixa
     		else{
               
-             	$('#header-search').css({"margin-top":"10px"});
-  				$('#wbc-mainnav').css({"margin-top":"60px"});    
+             	$('#header-search').css({"margin-top":"-11px"});
+  				$('#wbc-mainnav').css({"margin-top":"36px"});    
     		}
 			});
 
