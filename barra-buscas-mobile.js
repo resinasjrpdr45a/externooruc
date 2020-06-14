@@ -55,9 +55,9 @@ $(document).ready(function(){
               
              	$('#header-search').css({"margin-top":"-13px"});
   				$('#wbc-mainnav').css({"margin-top":"140px"}); 
-  				$('#header-right-cart').css({"left":"244px"});
+  				$('#header-right-cart').css({"left":"0"});
   				$('#header-menu-mobile').css({"right":"242px"});
-  				$('#header-menu-mobile').css({"top":"12px"}); 
+  				$('#header-menu-mobile').css({"top":"0"}); 
   				$('#header-right-cart').css({"top":"-4px"});      
     		}
 			});
@@ -78,14 +78,22 @@ $(document).ready(function(){
     		if(topo<151){
   					
   				$('#header-search').css({"margin-top":"2px"});
-  				$('#wbc-mainnav').css({"margin-top":"58px"});      		
+  				$('#wbc-mainnav').css({"margin-top":"58px"});
+  				$('#header-right-cart').css({"left":"0"});
+  				$('#header-menu-mobile').css({"right":"0"});
+  				$('#header-menu-mobile').css({"top":"0"});
+  				$('#header-right-cart').css({"top":"0"});        		
     		}
 
     		//Conteudos referentes a Barra Fixa
     		else{
               
              	$('#header-search').css({"margin-top":"-11px"});
-  				$('#wbc-mainnav').css({"margin-top":"36px"});     
+  				$('#wbc-mainnav').css({"margin-top":"36px"});
+  				$('#header-right-cart').css({"left":"244px"});
+  				$('#header-menu-mobile').css({"right":"242px"});
+  				$('#header-menu-mobile').css({"top":"12px"}); 
+  				$('#header-right-cart').css({"top":"-4px"});       
     		}
 			});
 
@@ -179,9 +187,9 @@ $(document).ready(function(){
               
              	$('#header-search').css({"margin-top":"-13px"});
   				$('#wbc-mainnav').css({"margin-top":"140px"});
-  				$('#header-right-cart').css({"left":"244px"});
+  				$('#header-right-cart').css({"left":"0"});
   				$('#header-right-cart').css({"top":"-4px"});
-  				$('#header-menu-mobile').css({"right":"242px"}); 
+  				$('#header-menu-mobile').css({"right":"0"}); 
   				$('#header-menu-mobile').css({"top":"12px"});     
     		}
 			});
@@ -202,14 +210,23 @@ $(document).ready(function(){
     		if(topo<151){
   					
   				$('#header-search').css({"margin-top":"2px"});
-  				$('#wbc-mainnav').css({"margin-top":"58px"});      		
+  				$('#wbc-mainnav').css({"margin-top":"58px"});
+  				$('#header-right-cart').css({"left":"0"});
+  				$('#header-right-cart').css({"top":"0"});
+  				$('#header-menu-mobile').css({"right":"0"});
+  				$('#header-menu-mobile').css({"top":"0"});       		
     		}
 
     		//Conteudos referentes a Barra Fixa
     		else{
               
              	$('#header-search').css({"margin-top":"-11px"});
-  				$('#wbc-mainnav').css({"margin-top":"36px"});    
+  				$('#wbc-mainnav').css({"margin-top":"36px"});
+  				$('#header-right-cart').css({"left":"244px"});
+  				$('#header-right-cart').css({"top":"-4px"});
+  				$('#header-menu-mobile').css({"right":"242px"}); 
+  				$('#header-menu-mobile').css({"top":"12px"});
+
     		}
 			});
 
