@@ -96,8 +96,8 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Estatica
     		if(topo<151){
   					
-  				$('#header-search').css({"margin-top":"-23px"});
-  				$('#wbc-mainnav').css({"margin-top":"25px"});      		
+  				$('#header-search').css({"margin-top":"-25px"});
+  				$('#wbc-mainnav').css({"margin-top":"29px"});           		
     		}
 
     		//Conteudos referentes a Barra Fixa
@@ -211,8 +211,8 @@ $(document).ready(function(){
     		//Conteudos referentes a Barra Estatica
     		if(topo<151){
   					
-  				$('#header-search').css({"margin-top":"-23px"});
-  				$('#wbc-mainnav').css({"margin-top":"25px"});      		
+  				$('#header-search').css({"margin-top":"-25px"});
+  				$('#wbc-mainnav').css({"margin-top":"29px"});      		
     		}
 
     		//Conteudos referentes a Barra Fixa
