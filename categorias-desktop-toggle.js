@@ -69,6 +69,7 @@ $(document).ready(function(){
             $("#category  .offcanvas-siderbars").addClass("canvassusp-cat");
             $("#order  .offcanvas-siderbars").addClass("canvassusp-ordcheck");
             $(".checkout  .offcanvas-siderbars").addClass("canvassusp-check");
+            $(".checkout  .canvassusp-check").removeClass("canvassusp-ordcheck");
             $("#index  .pagebuilder-content").addClass("canvassusp-homeindex");
             $("#my-account  .offcanvas-siderbars").addClass("canvassusp-acount");
             $('.header-inner .icon-desk-cart').css({"font-size":"60px"});
@@ -148,6 +149,7 @@ $(document).ready(function(){
             $("#category  .offcanvas-siderbars").addClass("canvassusp-cat");
             $("#order  .offcanvas-siderbars").addClass("canvassusp-ordcheck");
             $(".checkout  .offcanvas-siderbars").addClass("canvassusp-check");
+            $(".checkout  .canvassusp-check").removeClass("canvassusp-ordcheck");
             $("#index  .pagebuilder-content").addClass("canvassusp-homeindex");
             $("#my-account  .offcanvas-siderbars").addClass("canvassusp-acount");
             $('.header-inner #header-right-cart').css({"margin-top":"30px"});
