@@ -105,6 +105,11 @@ $(document).ready(function(){
 			});
 
 
+		}else{
+			$('#header-right-cart').css({"left":"0"});
+  			$('#header-right-cart').css({"top":"0"}); 
+  			$('#header-menu-mobile').css({"right":"0"});
+  			$('#header-menu-mobile').css({"top":"0"});	
 		}
 
 
@@ -132,9 +137,14 @@ $(document).ready(function(){
 			});			
 		}
 
+
 		//Adicionador de Classe a Barra de Busca em Resoluçoes Acima de 992px
 		else{
 			$('#wbc-mainnav').addClass(" col-md-12 col-sm-12 hidden-sm hidden-xs");
+			$('#header-right-cart').css({"left":"0"});
+  			$('#header-right-cart').css({"top":"0"}); 
+  			$('#header-menu-mobile').css({"right":"0"});
+  			$('#header-menu-mobile').css({"top":"0"});	
 		}
 
 
@@ -162,6 +172,13 @@ $(document).ready(function(){
   				$('#header-right-cart').css({"left":"603px"});    
     		}
 			});					
+		}
+
+		else{
+			$('#header-right-cart').css({"left":"0"});
+  			$('#header-right-cart').css({"top":"0"}); 
+  			$('#header-menu-mobile').css({"right":"0"});
+  			$('#header-menu-mobile').css({"top":"0"});
 		}
 
 				
@@ -247,6 +264,13 @@ $(document).ready(function(){
 
 		}
 
+		else{
+			$('#header-right-cart').css({"left":"0"});
+  			$('#header-right-cart').css({"top":"0"}); 
+  			$('#header-menu-mobile').css({"right":"0"});
+  			$('#header-menu-mobile').css({"top":"0"});
+		}
+
 		
 		//Ajuste da Barra de Buscas na Resolução de 992px
 		if (window.matchMedia('(max-width: 992px)').matches){  
@@ -274,6 +298,10 @@ $(document).ready(function(){
 		//Adicionador de Classe a Barra de Busca em Resoluçoes Acima de 992px
 		else{
 			$('#wbc-mainnav').addClass(" col-md-12 col-sm-12 hidden-sm hidden-xs");
+			$('#header-right-cart').css({"left":"0"});
+  			$('#header-right-cart').css({"top":"0"}); 
+  			$('#header-menu-mobile').css({"right":"0"});
+  			$('#header-menu-mobile').css({"top":"0"});
 		}
 
 
@@ -300,6 +328,13 @@ $(document).ready(function(){
   				$('#header-right-cart').css({"left":"603px"});      
     		}
 			});						
+		}
+
+		else{
+			$('#header-right-cart').css({"left":"0"});
+  			$('#header-right-cart').css({"top":"0"}); 
+  			$('#header-menu-mobile').css({"right":"0"});
+  			$('#header-menu-mobile').css({"top":"0"});
 		}
 	});
 });
