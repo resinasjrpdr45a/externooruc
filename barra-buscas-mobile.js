@@ -70,6 +70,10 @@ $(document).ready(function(){
 			$('#header-search').addClass("col-md-offset-1 col-md-6 col-sm-12 col-xs-12");
 			$('#suggestions1').addClass("col-lg-10 col-md-10 col-sm-12 col-xs-12");
 			$('#wbc-mainnav').removeClass(" col-md-12 col-sm-12 hidden-sm hidden-xs");
+			$('#header-right-cart').css({"left":"0"});
+  			$('#header-right-cart').css({"top":"0"}); 
+  			$('#header-menu-mobile').css({"right":"0"});
+  			$('#header-menu-mobile').css({"top":"0"}); 
 		}
 
 		if (window.matchMedia('(max-width: 999px)').matches){
@@ -207,6 +211,10 @@ $(document).ready(function(){
 			$('#header-search').addClass("col-md-offset-1 col-md-6 col-sm-12 col-xs-12");
 			$('#suggestions1').addClass("col-lg-10 col-md-10 col-sm-12 col-xs-12");
 			$('#wbc-mainnav').removeClass(" col-md-12 col-sm-12 hidden-sm hidden-xs");
+			$('#header-right-cart').css({"left":"0"});
+  			$('#header-right-cart').css({"top":"0"}); 
+  			$('#header-menu-mobile').css({"right":"0"});
+  			$('#header-menu-mobile').css({"top":"0"}); 
 		}
 
 		if (window.matchMedia('(max-width: 999px)').matches){
