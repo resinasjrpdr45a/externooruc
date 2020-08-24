@@ -8,7 +8,7 @@ $(document).ready(function(){
 	});
 
 	//Puxador - Out
-	$('#wbc-top-menu ul .aligned-left:nth-child(1)').mouseover(function(){
+	$('#wbc-top-menu ul .aligned-left:nth-child(1)').mouseout(function(){
    		$('#wbc-top-menu ul .aligned-left:nth-child(1) img').attr('src', 'https://www.jrresinas.com.br/arquivos/bi/1598240716_puxadoriconpng.png');
 	});
 	
