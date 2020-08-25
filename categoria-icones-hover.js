@@ -2,15 +2,7 @@ $(document).ready(function(){
 
 	//Imagens de Menu
 	
-	/*//Puxador - Hover
-	$('#wbc-top-menu ul .aligned-left:nth-child(1)').mouseover(function(){
-   		$('#wbc-top-menu ul .aligned-left:nth-child(1) img').attr('src', 'https://www.jrresinas.com.br/arquivos/bi/1598240716_puxadoriconhoverpng.png');
-	});
 
-	//Puxador - Out
-	$('#wbc-top-menu ul .aligned-left:nth-child(1)').mouseout(function(){
-   		$('#wbc-top-menu ul .aligned-left:nth-child(1) img').attr('src', 'https://www.jrresinas.com.br/arquivos/bi/1598240716_puxadoriconpng.png');
-	});*/
 	
 	//Linha Especial - Hover
 	$('#wbc-top-menu ul .aligned-left:nth-child(1)').mouseover(function(){
