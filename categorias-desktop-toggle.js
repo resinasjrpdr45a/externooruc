@@ -2,7 +2,7 @@ $(document).ready(function(){
         
     $('.header-inner').append('<i class="icon-bars barshomedesk"></i>');
     $('.header-inner').append('<i class="fas fa-times desktopclose"></i>');
-  
+    $('#headerCheck .barshomedesk').css({"display":"none"});
      
     if (window.matchMedia('(max-width: 1023px)').matches){ 
         $('.icon-shopping-cart').removeClass("icon-desk-cart");
@@ -59,8 +59,6 @@ $(document).ready(function(){
             $('#headerCheck').removeClass("bar");
             $('header').removeClass("bar");
             $('#header').removeClass("bar");
-            $('.barshomedesk').css({"display":"none"});
-            
 
           }
 
@@ -79,8 +77,6 @@ $(document).ready(function(){
             $('#headerCheck').addClass("bar");
             $('header').addClass("bar");
             $('#header').addClass("bar");
-            
-           
             ;
           }
       });
@@ -143,8 +139,6 @@ $(document).ready(function(){
             $('#headerCheck').removeClass("bar");
             $('header').removeClass("bar");
             $('#header').removeClass("bar");
-            $('.barshomedesk').css({"display":"none"});
-            
 
           }
 
@@ -166,8 +160,6 @@ $(document).ready(function(){
             $('#headerCheck').addClass("bar");
             $('header').addClass("bar");
             $('#header').addClass("bar");
-            
-            
           }
       });
 
@@ -194,9 +186,6 @@ $(document).ready(function(){
             $('#header-search').css({"margin-top":"0"});
             $('header').removeClass("bar");
             $('#header').removeClass("bar");
-            $('.barshomedesk').css({"display":"none"});
-            
-
           }
 
           else{
@@ -215,8 +204,6 @@ $(document).ready(function(){
             $('#header-search').css({"margin-top":"0"});
             $('header').addClass("bar");
             $('#header').addClass("bar");
-            
-            
             ;
           }
       });
