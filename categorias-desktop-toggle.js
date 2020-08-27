@@ -3,6 +3,8 @@ $(document).ready(function(){
     $('.header-inner').append('<i class="icon-bars barshomedesk"></i>');
     $('.header-inner').append('<i class="fas fa-times desktopclose"></i>');
     $('#headerCheck .barshomedesk').css({"display":"none"});
+    $('.barshomedesk').css({"display":"none"});
+    $('.icon-bars').css({"display":"none"});
      
     if (window.matchMedia('(max-width: 1023px)').matches){ 
         $('.icon-shopping-cart').removeClass("icon-desk-cart");
