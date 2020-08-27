@@ -59,6 +59,8 @@ $(document).ready(function(){
             $('#headerCheck').removeClass("bar");
             $('header').removeClass("bar");
             $('#header').removeClass("bar");
+            $('.barshomedesk').css({"display":"none"});
+            $('.icon-bars').css({"display":"none"});
 
           }
 
