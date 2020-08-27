@@ -2,9 +2,7 @@ $(document).ready(function(){
         
     $('.header-inner').append('<i class="icon-bars barshomedesk"></i>');
     $('.header-inner').append('<i class="fas fa-times desktopclose"></i>');
-    $('#headerCheck .barshomedesk').css({"display":"none"});
-    $('.barshomedesk').css({"display":"none"});
-    $('.icon-bars').css({"display":"none"});
+  
      
     if (window.matchMedia('(max-width: 1023px)').matches){ 
         $('.icon-shopping-cart').removeClass("icon-desk-cart");
@@ -81,6 +79,8 @@ $(document).ready(function(){
             $('#headerCheck').addClass("bar");
             $('header').addClass("bar");
             $('#header').addClass("bar");
+            $('.barshomedesk').css({"display":"block"});
+            $('.icon-bars').css({"display":"block"});
             ;
           }
       });
@@ -143,6 +143,8 @@ $(document).ready(function(){
             $('#headerCheck').removeClass("bar");
             $('header').removeClass("bar");
             $('#header').removeClass("bar");
+            $('.barshomedesk').css({"display":"none"});
+            $('.icon-bars').css({"display":"none"});
 
           }
 
@@ -164,6 +166,8 @@ $(document).ready(function(){
             $('#headerCheck').addClass("bar");
             $('header').addClass("bar");
             $('#header').addClass("bar");
+            $('.barshomedesk').css({"display":"block"});
+            $('.icon-bars').css({"display":"block"});
           }
       });
 
@@ -190,6 +194,9 @@ $(document).ready(function(){
             $('#header-search').css({"margin-top":"0"});
             $('header').removeClass("bar");
             $('#header').removeClass("bar");
+            $('.barshomedesk').css({"display":"none"});
+            $('.icon-bars').css({"display":"none"});
+
           }
 
           else{
@@ -208,6 +215,8 @@ $(document).ready(function(){
             $('#header-search').css({"margin-top":"0"});
             $('header').addClass("bar");
             $('#header').addClass("bar");
+            $('.barshomedesk').css({"display":"block"});
+            $('.icon-bars').css({"display":"block"});
             ;
           }
       });
